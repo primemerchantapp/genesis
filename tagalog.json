@@ -1,0 +1,730 @@
+[
+  { "word": "Kumusta", "pronunciation": "koo-moos-TAH" },
+  { "word": "Mabuti", "pronunciation": "ma-BOO-tee" },
+  { "word": "Salamat", "pronunciation": "sa-LA-mat" },
+  { "word": "Walang anuman", "pronunciation": "wa-LANG a-NOO-man" },
+  { "word": "Oo", "pronunciation": "OH-oh" },
+  { "word": "Hindi", "pronunciation": "hin-DEE" },
+  { "word": "Magandang araw", "pronunciation": "ma-gan-DANG A-raw" },
+  { "word": "Magandang umaga", "pronunciation": "ma-gan-DANG oo-MA-ga" },
+  { "word": "Magandang hapon", "pronunciation": "ma-gan-DANG HA-pon" },
+  { "word": "Magandang gabi", "pronunciation": "ma-gan-DANG GA-bee" },
+  { "word": "Paalam", "pronunciation": "pa-A-lam" },
+  { "word": "Sige", "pronunciation": "SEE-geh" },
+  { "word": "Po", "pronunciation": "poh" },
+  { "word": "Opo", "pronunciation": "OH-poh" },
+  { "word": "Hindi po", "pronunciation": "hin-DEE poh" },
+  { "word": "Mano po", "pronunciation": "MA-noh poh" },
+  { "word": "Pasensya na po", "pronunciation": "pa-SEN-sha na poh" },
+  { "word": "Ikaw", "pronunciation": "ee-KAW" },
+  { "word": "Ako", "pronunciation": "A-koh" },
+  { "word": "Siya", "pronunciation": "SHA-yah" },
+  { "word": "Tayo", "pronunciation": "TA-yoh" },
+  { "word": "Kami", "pronunciation": "KA-mee" },
+  { "word": "Kayo", "pronunciation": "KA-yoh" },
+  { "word": "Sila", "pronunciation": "SEE-la" },
+  { "word": "Ito", "pronunciation": "EE-toh" },
+  { "word": "Iyan", "pronunciation": "ee-YAN" },
+  { "word": "Dito", "pronunciation": "DEE-toh" },
+  { "word": "Diyan", "pronunciation": "DEE-yan" },
+  { "word": "Doon", "pronunciation": "doh-OHN" },
+  { "word": "Ano", "pronunciation": "A-noh" },
+  { "word": "Sino", "pronunciation": "SEE-noh" },
+  { "word": "Saan", "pronunciation": "sa-AHN" },
+  { "word": "Kailan", "pronunciation": "ka-ee-LAN" },
+  { "word": "Bakit", "pronunciation": "BA-kit" },
+  { "word": "Paano", "pronunciation": "pa-A-noh" },
+  { "word": "Magkano", "pronunciation": "mag-ka-A-noh" },
+  { "word": "Mayroon", "pronunciation": "may-roo-OHN" },
+  { "word": "Wala", "pronunciation": "WA-la" },
+  { "word": "Meron", "pronunciation": "ME-ron" },
+  { "word": "Hindi meron", "pronunciation": "hin-DEE ME-ron" },
+  { "word": "Isa", "pronunciation": "EE-sa" },
+  { "word": "Dalawa", "pronunciation": "da-LA-wa" },
+  { "word": "Tatlo", "pronunciation": "TAT-loh" },
+  { "word": "Apat", "pronunciation": "A-pat" },
+  { "word": "Lima", "pronunciation": "LEE-ma" },
+  { "word": "Anim", "pronunciation": "A-nim" },
+  { "word": "Pito", "pronunciation": "PEE-toh" },
+  { "word": "Walo", "pronunciation": "WA-loh" },
+  { "word": "Siyam", "pronunciation": "SEE-yam" },
+  { "word": "Sampu", "pronunciation": "SAM-poo" },
+  { "word": "Labing-isa", "pronunciation": "la-BING-ee-sa" },
+  { "word": "Dalawampu", "pronunciation": "da-la-wam-POO" },
+  { "word": "Sandaan", "pronunciation": "san-da-A-N" },
+  { "word": "Isang libo", "pronunciation": "ee-SANG lee-BOH" },
+  { "word": "Milyon", "pronunciation": "mil-YON" },
+  { "word": "Una", "pronunciation": "OO-na" },
+  { "word": "Pangalawa", "pronunciation": "pa-nga-la-WA" },
+  { "word": "Pangatlo", "pronunciation": "pa-nga-TAT-loh" },
+  { "word": "Una", "pronunciation": "OO-na" },
+  { "word": "Huli", "pronunciation": "hoo-LEE" },
+  { "word": "Ngayon", "pronunciation": "NGA-yon" },
+  { "word": "Mamaya", "pronunciation": "ma-ma-YA" },
+  { "word": "Kanina", "pronunciation": "ka-nee-NA" },
+  { "word": "Bukas", "pronunciation": "BOO-kas" },
+  { "word": "Kahapon", "pronunciation": "ka-HA-pon" },
+  { "word": "Umaga", "pronunciation": "oo-MA-ga" },
+  { "word": "Tanghali", "pronunciation": "tang-HA-lee" },
+  { "word": "Hapon", "pronunciation": "HA-pon" },
+  { "word": "Gabi", "pronunciation": "GA-bee" },
+  { "word": "Araw", "pronunciation": "A-raw" },
+  { "word": "Linggo", "pronunciation": "ling-GO" },
+  { "word": "Buwan", "pronunciation": "boo-WAN" },
+  { "word": "Taon", "pronunciation": "ta-OHN" },
+  { "word": "Oras", "pronunciation": "O-ras" },
+  { "word": "Minuto", "pronunciation": "mi-NOO-toh" },
+  { "word": "Segundo", "pronunciation": "se-GOON-doh" },
+  { "word": "Lunes", "pronunciation": "LOO-nes" },
+  { "word": "Martes", "pronunciation": "MAR-tes" },
+  { "word": "Miyerkules", "pronunciation": "myer-KOO-les" },
+  { "word": "Huwebes", "pronunciation": "hoo-WE-bes" },
+  { "word": "Biyernes", "pronunciation": "byer-NES" },
+  { "word": "Sabado", "pronunciation": "sa-BA-doh" },
+  { "word": "Linggo (day of week)", "pronunciation": "ling-GO" },
+  { "word": "Nanay", "pronunciation": "NA-nay" },
+  { "word": "Tatay", "pronunciation": "TA-tay" },
+  { "word": "Anak", "pronunciation": "A-nak" },
+  { "word": "Kapatid", "pronunciation": "ka-pa-TID" },
+  { "word": "Asawa", "pronunciation": "a-SA-wa" },
+  { "word": "Lolo", "pronunciation": "LO-loh" },
+  { "word": "Lola", "pronunciation": "LO-la" },
+  { "word": "Tito", "pronunciation": "TEE-toh" },
+  { "word": "Tita", "pronunciation": "TEE-ta" },
+  { "word": "Pinsan", "pronunciation": "PIN-san" },
+  { "word": "Kaibigan", "pronunciation": "ka-ee-BI-gan" },
+  { "word": "Tao", "pronunciation": "TA-oh" },
+  { "word": "Babae", "pronunciation": "ba-BA-e" },
+  { "word": "Lalaki", "pronunciation": "la-LA-kee" },
+  { "word": "Bata", "pronunciation": "BA-ta" },
+  { "word": "Matanda", "pronunciation": "ma-tan-DA" },
+  { "word": "Pamilya", "pronunciation": "pa-mil-YA" },
+  { "word": "Bahay", "pronunciation": "BA-hay" },
+  { "word": "Kotse", "pronunciation": "KOT-se" },
+  { "word": "Bus", "pronunciation": "bus" },
+  { "word": "Tren", "pronunciation": "tren" },
+  { "word": "Eroplano", "pronunciation": "e-roh-PLA-noh" },
+  { "word": "Barko", "pronunciation": "BAR-koh" },
+  { "word": "Bisikleta", "pronunciation": "bi-sik-LE-ta" },
+  { "word": "Daan", "pronunciation": "DA-an" },
+  { "word": "Kalsada", "pronunciation": "kal-SA-da" },
+  { "word": "Lugar", "pronunciation": "loo-GAR" },
+  { "word": "Bayan", "pronunciation": "BA-yan" },
+  { "word": "Siyudad", "pronunciation": "si-YU-dad" },
+  { "word": "Bansa", "pronunciation": "BAN-sa" },
+  { "word": "Mundo", "pronunciation": "MUN-doh" },
+  { "word": "Langit", "pronunciation": "LA-ngit" },
+  { "word": "Lupa", "pronunciation": "LOO-pa" },
+  { "word": "Tubig", "pronunciation": "TOO-big" },
+  { "word": "Apoy", "pronunciation": "A-poy" },
+  { "word": "Hangin", "pronunciation": "HA-ngin" },
+  { "word": "Puno", "pronunciation": "POO-noh" },
+  { "word": "Hayop", "pronunciation": "HA-yop" },
+  { "word": "Ibon", "pronunciation": "EE-bon" },
+  { "word": "Isda", "pronunciation": "IS-da" },
+  { "word": "Aso", "pronunciation": "A-soh" },
+  { "word": "Pusa", "pronunciation": "POO-sa" },
+  { "word": "Daga", "pronunciation": "DA-ga" },
+  { "word": "Pagkain", "pronunciation": "pag-ka-EEN" },
+  { "word": "Inumin", "pronunciation": "ee-NOO-min" },
+  { "word": "Kanin", "pronunciation": "ka-NIN" },
+  { "word": "Ulam", "pronunciation": "OO-lam" },
+  { "word": "Prutas", "pronunciation": "PROO-tas" },
+  { "word": "Gulay", "pronunciation": "goo-LAY" },
+  { "word": "Tinapay", "pronunciation": "ti-na-PAY" },
+  { "word": "Kape", "pronunciation": "KA-peh" },
+  { "word": "Tsaa", "pronunciation": "tsa-AH" },
+  { "word": "Asukal", "pronunciation": "a-soo-KAL" },
+  { "word": "Asin", "pronunciation": "A-sin" },
+  { "word": "Suka", "pronunciation": "SOO-ka" },
+  { "word": "Mantika", "pronunciation": "man-TEE-ka" },
+  { "word": "Bawang", "pronunciation": "BA-wang" },
+  { "word": "Sibuyas", "pronunciation": "si-BOO-yas" },
+  { "word": "Kamatis", "pronunciation": "ka-MA-tis" },
+  { "word": "Sili", "pronunciation": "SEE-lee" },
+  { "word": "Manok", "pronunciation": "ma-NOK" },
+  { "word": "Baboy", "pronunciation": "ba-BOY" },
+  { "word": "Baka", "pronunciation": "BA-ka" },
+  { "word": "Isda (food)", "pronunciation": "IS-da" },
+  { "word": "Itlog", "pronunciation": "IT-log" },
+  { "word": "Gatas", "pronunciation": "GA-tas" },
+  { "word": "Keso", "pronunciation": "KE-soh" },
+  { "word": "Mantikilya", "pronunciation": "man-ti-KIL-ya" },
+  { "word": "Damit", "pronunciation": "DA-mit" },
+  { "word": "Pantalon", "pronunciation": "pan-TA-lon" },
+  { "word": "Sapatos", "pronunciation": "sa-PA-tos" },
+  { "word": "Sumbrero", "pronunciation": "sum-BRE-roh" },
+  { "word": "Bag", "pronunciation": "bag" },
+  { "word": "Pera", "pronunciation": "PE-ra" },
+  { "word": "Ginto", "pronunciation": "GIN-toh" },
+  { "word": "Pilak", "pronunciation": "PI-lak" },
+  { "word": "Alahas", "pronunciation": "a-LA-has" },
+  { "word": "Telepono", "pronunciation": "te-le-PO-noh" },
+  { "word": "Cellphone", "pronunciation": "SEL-fown" },
+  { "word": "Kompyuter", "pronunciation": "kom-PYOO-ter" },
+  { "word": "Telebisyon", "pronunciation": "te-le-bis-YON" },
+  { "word": "Radyo", "pronunciation": "RAD-yoh" },
+  { "word": "Pahayagan", "pronunciation": "pa-ha-YAG-an" },
+  { "word": "Aklat", "pronunciation": "AK-lat" },
+  { "word": "Dyaryo", "pronunciation": "DYAR-yo" },
+  { "word": "Mesa", "pronunciation": "ME-sa" },
+  { "word": "Silya", "pronunciation": "SIL-ya" },
+  { "word": "Kama", "pronunciation": "KA-ma" },
+  { "word": "Bintana", "pronunciation": "bin-TA-na" },
+  { "word": "Pinto", "pronunciation": "PIN-toh" },
+  { "word": "Kutsara", "pronunciation": "kut-SA-ra" },
+  { "word": "Tinidor", "pronunciation": "ti-ni-DOR" },
+  { "word": "Plato", "pronunciation": "PLA-toh" },
+  { "word": "Baso", "pronunciation": "BA-soh" },
+  { "word": "Kutsilyo", "pronunciation": "kut-SIL-yoh" },
+  { "word": "Sandok", "pronunciation": "SAN-dok" },
+  { "word": "Kaldero", "pronunciation": "kal-DE-roh" },
+  { "word": "Kawali", "pronunciation": "ka-WA-lee" },
+  { "word": "Pabahay", "pronunciation": "pa-BA-hay" },
+  { "word": "Trabaho", "pronunciation": "tra-BA-hoh" },
+  { "word": "Eskwela", "pronunciation": "es-KWE-la" },
+  { "word": "Ospital", "pronunciation": "os-pi-TAL" },
+  { "word": "Simabahan", "pronunciation": "sim-BA-han" },
+  { "word": "Pamilihan", "pronunciation": "pa-mi-li-HAN" },
+  { "word": "Palengke", "pronunciation": "pa-LENG-ke" },
+  { "word": "Parke", "pronunciation": "PAR-ke" },
+  { "word": "Restawran", "pronunciation": "res-taw-RAN" },
+  { "word": "Hotel", "pronunciation": "ho-TEL" },
+  { "word": "Bangko", "pronunciation": "BANG-koh" },
+  { "word": "Post office", "pronunciation": "post O-fis" },
+  { "word": "Pulis station", "pronunciation": "POO-lis STEY-shon" },
+  { "word": "Bumbero station", "pronunciation": "bum-BE-roh STEY-shon" },
+  { "word": "Guro", "pronunciation": "GOO-roh" },
+  { "word": "Doktor", "pronunciation": "DOK-tor" },
+  { "word": "Nars", "pronunciation": "nars" },
+  { "word": "Pulis", "pronunciation": "POO-lis" },
+  { "word": "Bumbero", "pronunciation": "bum-BE-roh" },
+  { "word": "Magsasaka", "pronunciation": "mag-sa-sa-KA" },
+  { "word": "Mangingisda", "pronunciation": "ma-ngi-ngis-DA" },
+  { "word": "Karpintero", "pronunciation": "kar-pin-TE-roh" },
+  { "word": "Plumber", "pronunciation": "PLUM-ber" },
+  { "word": "Elektrisyan", "pronunciation": "e-lek-tris-YAN" },
+  { "word": "Abogado", "pronunciation": "ab-o-ga-DOH" },
+  { "word": "Inhenyero", "pronunciation": "in-hen-YER-oh" },
+  { "word": "Arkitekto", "pronunciation": "ar-ki-TEK-toh" },
+  { "word": "Artista", "pronunciation": "ar-TIS-ta" },
+  { "word": "Mang-aawit", "pronunciation": "mang-a-A-wit" },
+  { "word": "Mananayaw", "pronunciation": "ma-na-na-YA-w" },
+  { "word": "Manunulat", "pronunciation": "ma-noo-NOO-lat" },
+  { "word": "Magluluto", "pronunciation": "mag-loo-LOO-toh" },
+  { "word": "Magsusulat", "pronunciation": "mag-soo-SOO-lat" },
+  { "word": "Magbabasa", "pronunciation": "mag-ba-BA-sa" },
+  { "word": "Maglalakad", "pronunciation": "mag-la-LA-kad" },
+  { "word": "Tumatakbo", "pronunciation": "too-ma-TAK-boh" },
+  { "word": "Lumalangoy", "pronunciation": "loo-ma-la-NGOY" },
+  { "word": "Umakyat", "pronunciation": "oo-ma-KYAT" },
+  { "word": "Bumaba", "pronunciation": "boo-MA-ba" },
+  { "word": "Pumasok", "pronunciation": "poo-MA-sok" },
+  { "word": "Lumabas", "pronunciation": "loo-MA-bas" },
+  { "word": "Umupo", "pronunciation": "oo-moo-POH" },
+  { "word": "Tumayo", "pronunciation": "too-ma-YO" },
+  { "word": "Humiga", "pronunciation": "hoo-MEE-ga" },
+  { "word": "Bumangon", "pronunciation": "boo-MA-ngon" },
+  { "word": "Matulog", "pronunciation": "ma-too-LOG" },
+  { "word": "Gumising", "pronunciation": "goo-mee-SING" },
+  { "word": "Kumain", "pronunciation": "koo-MA-in" },
+  { "word": "Uminom", "pronunciation": "oo-mee-NOM" },
+  { "word": "Magluto", "pronunciation": "mag-loo-TOH" },
+  { "word": "Maghugas", "pronunciation": "mag-hoo-GAS" },
+  { "word": "Maglinis", "pronunciation": "mag-li-NIS" },
+  { "word": "Maglaba", "pronunciation": "mag-la-BA" },
+  { "word": "Magplantsa", "pronunciation": "mag-plan-TSA" },
+  { "word": "Magsipilyo", "pronunciation": "mag-si-PIL-yoh" },
+  { "word": "Maligo", "pronunciation": "ma-lee-GO" },
+  { "word": "Magbihis", "pronunciation": "mag-bi-HIS" },
+  { "word": "Magmaneho", "pronunciation": "mag-ma-ne-HOH" },
+  { "word": "Magtrabaho", "pronunciation": "mag-tra-BA-hoh" },
+  { "word": "Mag-aral", "pronunciation": "mag-a-RAL" },
+  { "word": "Maglaro", "pronunciation": "mag-la-ROH" },
+  { "word": "Magpahinga", "pronunciation": "mag-pa-hi-NGA" },
+  { "word": "Manood", "pronunciation": "ma-NOOD" },
+  { "word": "Makinig", "pronunciation": "ma-ki-NIG" },
+  { "word": "Magsalita", "pronunciation": "mag-sa-lee-TA" },
+  { "word": "Magtanong", "pronunciation": "mag-ta-NONG" },
+  { "word": "Sumagot", "pronunciation": "soo-MA-got" },
+  { "word": "Mag-isip", "pronunciation": "mag-i-SIP" },
+  { "word": "Maniwala", "pronunciation": "ma-ni-wa-LA" },
+  { "word": "Malimutan", "pronunciation": "ma-li-MOO-tan" },
+  { "word": "Maalala", "pronunciation": "ma-a-LA-la" },
+  { "word": "Matuto", "pronunciation": "ma-too-TOH" },
+  { "word": "Magturo", "pronunciation": "mag-TOO-roh" },
+  { "word": "Magbigay", "pronunciation": "mag-big-GAY" },
+  { "word": "Tumanggap", "pronunciation": "too-mang-GAP" },
+  { "word": "Maghintay", "pronunciation": "mag-hin-TAY" },
+  { "word": "Maghanap", "pronunciation": "mag-ha-NAP" },
+  { "word": "Makita", "pronunciation": "ma-KI-ta" },
+  { "word": "Mawala", "pronunciation": "ma-wa-LA" },
+  { "word": "Mabalik", "pronunciation": "ma-ba-LIK" },
+  { "word": "Magbukas", "pronunciation": "mag-BOO-kas" },
+  { "word": "Magsara", "pronunciation": "mag-SA-ra" },
+  { "word": "Itulak", "pronunciation": "ee-TOO-lak" },
+  { "word": "Hilahin", "pronunciation": "hi-LA-hin" },
+  { "word": "Pindutin", "pronunciation": "pin-DOO-tin" },
+  { "word": "Hawakan", "pronunciation": "ha-WA-kan" },
+  { "word": "Bitawan", "pronunciation": "bi-ta-WAN" },
+  { "word": "Itaas", "pronunciation": "ee-TA-as" },
+  { "word": "Ibaba", "pronunciation": "ee-BA-ba" },
+  { "word": "Ilagay", "pronunciation": "ee-la-GAY" },
+  { "word": "Alisin", "pronunciation": "a-li-SIN" },
+  { "word": "Puntahan", "pronunciation": "pun-ta-HAN" },
+  { "word": "Umalis", "pronunciation": "oo-ma-LIS" },
+  { "word": "Bumalik", "pronunciation": "boo-ma-LIK" },
+  { "word": "Manatili", "pronunciation": "ma-na-ti-LEE" },
+  { "word": "Maglakbay", "pronunciation": "mag-lak-BAY" },
+  { "word": "Magbakasyon", "pronunciation": "mag-ba-kas-YON" },
+  { "word": "Magpasyal", "pronunciation": "mag-pas-YAL" },
+  { "word": "Mamasyal", "pronunciation": "ma-ma-SYAL" },
+  { "word": "Sumakay", "pronunciation": "soo-ma-KAY" },
+  { "word": "Bumaba (vehicle)", "pronunciation": "boo-MA-ba" },
+  { "word": "Magbayad", "pronunciation": "mag-BAYAD" },
+  { "word": "Magmaneho (vehicle)", "pronunciation": "mag-ma-ne-HOH" },
+  { "word": "Pumarada", "pronunciation": "poo-ma-RA-da" },
+  { "word": "Maglakad", "pronunciation": "mag-la-KAD" },
+  { "word": "Tumakbo", "pronunciation": "too-ma-TAK-boh" },
+  { "word": "Lumangoy", "pronunciation": "loo-ma-NGOY" },
+  { "word": "Umakyat (climb)", "pronunciation": "oo-ma-KYAT" },
+  { "word": "Bumaba (descend)", "pronunciation": "boo-MA-ba" },
+  { "word": "Mag-ehersisyo", "pronunciation": "mag-e-her-SIS-yoh" },
+  { "word": "Maglaro (sports)", "pronunciation": "mag-la-ROH" },
+  { "word": "Manalo", "pronunciation": "ma-na-LOH" },
+  { "word": "Matatalo", "pronunciation": "ma-ta-ta-LOH" },
+  { "word": "Magdiwang", "pronunciation": "mag-di-WANG" },
+  { "word": "Malungkot", "pronunciation": "ma-lung-KOT" },
+  { "word": "Masaya", "pronunciation": "ma-sa-YA" },
+  { "word": "Nalulungkot", "pronunciation": "na-loo-lung-KOT" },
+  { "word": "Natutuwa", "pronunciation": "na-too-TOO-wa" },
+  { "word": "Nagagalit", "pronunciation": "na-ga-GA-lit" },
+  { "word": "Natatakot", "pronunciation": "na-ta-ta-KOOT" },
+  { "word": "Nagugutom", "pronunciation": "na-goo-GOO-tom" },
+  { "word": "Nauuhaw", "pronunciation": "na-oo-oo-HAW" },
+  { "word": "Pagod", "pronunciation": "PA-god" },
+  { "word": "Napapagod", "pronunciation": "na-pa-pa-PA-god" },
+  { "word": "Masigla", "pronunciation": "ma-sig-LA" },
+  { "word": "Mahina", "pronunciation": "ma-hee-NA" },
+  { "word": "Malakas", "pronunciation": "ma-la-KAS" },
+  { "word": "Mabilis", "pronunciation": "ma-bi-LIS" },
+  { "word": "Mabagal", "pronunciation": "ma-ba-GAL" },
+  { "word": "Mataas", "pronunciation": "ma-TA-as" },
+  { "word": "Mababa", "pronunciation": "ma-ba-BA" },
+  { "word": "Malaki", "pronunciation": "ma-la-KI" },
+  { "word": "Maliit", "pronunciation": "ma-li-IT" },
+  { "word": "Mahaba", "pronunciation": "ma-ha-BA" },
+  { "word": "Maikli", "pronunciation": "ma-ik-LEE" },
+  { "word": "Mabuti (good)", "pronunciation": "ma-BOO-tee" },
+  { "word": "Masama", "pronunciation": "ma-sa-MA" },
+  { "word": "Maganda", "pronunciation": "ma-gan-DA" },
+  { "word": "Pangit", "pronunciation": "PA-ngit" },
+  { "word": "Mura", "pronunciation": "MOO-ra" },
+  { "word": "Mahal", "pronunciation": "ma-HAL" },
+  { "word": "Madali", "pronunciation": "ma-da-LEE" },
+  { "word": "Mahirap", "pronunciation": "ma-hi-RAP" },
+  { "word": "Malinis", "pronunciation": "ma-li-NIS" },
+  { "word": "Marumi", "pronunciation": "ma-roo-MI" },
+  { "word": "Maitim", "pronunciation": "ma-i-TIM" },
+  { "word": "Maputi", "pronunciation": "ma-poo-TEE" },
+  { "word": "Mabigat", "pronunciation": "ma-bi-GAT" },
+  { "word": "Magaan", "pronunciation": "ma-ga-AN" },
+  { "word": "Mainit", "pronunciation": "ma-i-NIT" },
+  { "word": "Malamig", "pronunciation": "ma-la-MIG" },
+  { "word": "Matamis", "pronunciation": "ma-ta-MIS" },
+  { "word": "Maasim", "pronunciation": "ma-a-SIM" },
+  { "word": "Maalat", "pronunciation": "ma-a-LAT" },
+  { "word": "Mapait", "pronunciation": "ma-pa-IT" },
+  { "word": "Maanghang", "pronunciation": "ma-a-NGHANG" },
+  { "word": "Mabango", "pronunciation": "ma-ba-NGO" },
+  { "word": "Maamoy", "pronunciation": "ma-a-MOY" },
+  { "word": "Magulo", "pronunciation": "ma-goo-LOH" },
+  { "word": "Matahimik", "pronunciation": "ma-ta-hi-MIK" },
+  { "word": "Maliwanag", "pronunciation": "ma-li-wa-NAG" },
+  { "word": "Madilim", "pronunciation": "ma-di-LIM" },
+  { "word": "Bago", "pronunciation": "BA-goh" },
+  { "word": "Luma", "pronunciation": "LOO-ma" },
+  { "word": "Buo", "pronunciation": "boo-OH" },
+  { "word": "Sira", "pronunciation": "SI-ra" },
+  { "word": "Gawa", "pronunciation": "GA-wa" },
+  { "word": "Bili", "pronunciation": "bi-LEE" },
+  { "word": "Benta", "pronunciation": "BEN-ta" },
+  { "word": "Laki", "pronunciation": "LA-ki" },
+  { "word": "Liit", "pronunciation": "li-IT" },
+  { "word": "Dami", "pronunciation": "DA-mi" },
+  { "word": "Konti", "pronunciation": "KON-tee" },
+  { "word": "Lahat", "pronunciation": "LA-hat" },
+  { "word": "Laman", "pronunciation": "LA-man" },
+  { "word": "Labas", "pronunciation": "LA-bas" },
+  { "word": "Loob", "pronunciation": "lo-OB" },
+  { "word": "Unahan", "pronunciation": "oo-na-HAN" },
+  { "word": "Hulihan", "pronunciation": "hoo-li-HAN" },
+  { "word": "Gitna", "pronunciation": "git-NA" },
+  { "word": "Tuktok", "pronunciation": "TUK-tok" },
+  { "word": "Ilalim", "pronunciation": "ee-la-LIM" },
+  { "word": "Dulo", "pronunciation": "DOO-loh" },
+  { "word": "Simula", "pronunciation": "si-MOO-la" },
+  { "word": "Wakas", "pronunciation": "WA-kas" },
+  { "word": "Gitnang-dulo", "pronunciation": "git-nang-DOO-loh" },
+  { "word": "Kaliwa", "pronunciation": "ka-li-WA" },
+  { "word": "Kanan", "pronunciation": "ka-NAN" },
+  { "word": "Diretso", "pronunciation": "di-RET-soh" },
+  { "word": "Pabalik", "pronunciation": "pa-ba-LIK" },
+  { "word": "Pataas", "pronunciation": "pa-TA-as" },
+  { "word": "Pababa", "pronunciation": "pa-ba-BA" },
+  { "word": "Pakanan", "pronunciation": "pa-ka-NAN" },
+  { "word": "Pakaliwa", "pronunciation": "pa-ka-li-WA" },
+  { "word": "Paharap", "pronunciation": "pa-HA-rap" },
+  { "word": "Patalikod", "pronunciation": "pa-ta-li-KOD" },
+  { "word": "Palayo", "pronunciation": "pa-LA-yoh" },
+  { "word": "Palapit", "pronunciation": "pa-la-PIT" },
+  { "word": "Dito (here)", "pronunciation": "DEE-toh" },
+  { "word": "Diyan (there near you)", "pronunciation": "DEE-yan" },
+  { "word": "Doon (there far)", "pronunciation": "doh-OHN" },
+  { "word": "Narito", "pronunciation": "na-REE-toh" },
+  { "word": "Nariyan", "pronunciation": "na-REE-yan" },
+  { "word": "Naroon", "pronunciation": "na-ROH-on" },
+  { "word": "Pumunta", "pronunciation": "poo-moon-TA" },
+  { "word": "Pumariyan", "pronunciation": "poo-ma-REE-yan" },
+  { "word": "Pumaroon", "pronunciation": "poo-ma-ROH-on" },
+  { "word": "Nandito", "pronunciation": "nan-DEE-toh" },
+  { "word": "Nandiyan", "pronunciation": "nan-DEE-yan" },
+  { "word": "Nandoon", "pronunciation": "nan-DOH-on" },
+  { "word": "Kumuha", "pronunciation": "koo-MOO-ha" },
+  { "word": "Kunan", "pronunciation": "koo-NAN" },
+  { "word": "Kunin", "pronunciation": "koo-NIN" },
+  { "word": "Ibigay (give)", "pronunciation": "ee-big-GAY" },
+  { "word": "Bigyan", "pronunciation": "big-YAN" },
+  { "word": "Ibigin", "pronunciation": "ee-bi-GIN" },
+  { "word": "Magtanong (ask)", "pronunciation": "mag-ta-NONG" },
+  { "word": "Tanungin", "pronunciation": "ta-NOO-ngin" },
+  { "word": "Itanong", "pronunciation": "ee-ta-NONG" },
+  { "word": "Magsabi (say)", "pronunciation": "mag-sa-BEE" },
+  { "word": "Sabihin", "pronunciation": "sa-bi-HIN" },
+  { "word": "Isabi", "pronunciation": "ee-sa-BEE" },
+  { "word": "Makinig (listen)", "pronunciation": "ma-ki-NIG" },
+  { "word": "Pakinggan", "pronunciation": "pa-king-GAN" },
+  { "word": "Pakingin", "pronunciation": "pa-ki-NGIN" },
+  { "word": "Manood (watch)", "pronunciation": "ma-NOOD" },
+  { "word": "Panoorin", "pronunciation": "pa-no-OR-in" },
+  { "word": "Panoorin", "pronunciation": "pa-no-OR-in" },
+  { "word": "Maghintay (wait)", "pronunciation": "mag-hin-TAY" },
+  { "word": "Hintayin", "pronunciation": "hin-TA-yin" },
+  { "word": "Antayin", "pronunciation": "an-TA-yin" },
+  { "word": "Maghanap (look for)", "pronunciation": "mag-ha-NAP" },
+  { "word": "Hanapin", "pronunciation": "ha-NA-pin" },
+  { "word": "Magkita (see each other)", "pronunciation": "mag-ki-TA" },
+  { "word": "Magkita tayo", "pronunciation": "mag-ki-TA TA-yoh" },
+  { "word": "Magkita kami", "pronunciation": "mag-ki-TA KA-mee" },
+  { "word": "Magkita kayo", "pronunciation": "mag-ki-TA KA-yoh" },
+  { "word": "Magkita sila", "pronunciation": "mag-ki-TA SEE-la" },
+  { "word": "Magkita tayo ulit", "pronunciation": "mag-ki-TA TA-yoh OO-lit" },
+  { "word": "Magkita tayo mamaya", "pronunciation": "mag-ki-TA TA-yoh ma-ma-YA" },
+  { "word": "Magkita tayo bukas", "pronunciation": "mag-ki-TA TA-yoh BOO-kas" },
+  { "word": "Magkita tayo doon", "pronunciation": "mag-ki-TA TA-yoh doh-OHN" },
+  { "word": "Magkita tayo dito", "pronunciation": "mag-ki-TA TA-yoh DEE-toh" },
+  { "word": "Magkita tayo diyan", "pronunciation": "mag-ki-TA TA-yoh DEE-yan" },
+  { "word": "Magkita tayo sa (location)", "pronunciation": "mag-ki-TA TA-yoh sa (location)" },
+  { "word": "Magkita tayo sa bahay", "pronunciation": "mag-ki-TA TA-yoh sa BA-hay" },
+  { "word": "Magkita tayo sa mall", "pronunciation": "mag-ki-TA TA-yoh sa mawl" },
+  { "word": "Magkita tayo sa restawran", "pronunciation": "mag-ki-TA TA-yoh sa res-taw-RAN" },
+  { "word": "Magkita tayo sa parke", "pronunciation": "mag-ki-TA TA-yoh sa PAR-ke" },
+  { "word": "Magkita tayo sa eskwela", "pronunciation": "mag-ki-TA TA-yoh sa es-KWE-la" },
+  { "word": "Magkita tayo sa trabaho", "pronunciation": "mag-ki-TA TA-yoh sa tra-BA-hoh" },
+  { "word": "Magkita tayo sa simbahan", "pronunciation": "mag-ki-TA TA-yoh sa sim-BA-han" },
+  { "word": "Magkita tayo sa ospital", "pronunciation": "mag-ki-TA TA-yoh sa os-pi-TAL" },
+  { "word": "Magkita tayo sa palengke", "pronunciation": "mag-ki-TA TA-yoh sa pa-LENG-ke" },
+  { "word": "Magkita tayo sa pamilihan", "pronunciation": "mag-ki-TA TA-yoh sa pa-mi-li-HAN" },
+  { "word": "Magkita tayo sa hotel", "pronunciation": "mag-ki-TA TA-yoh sa ho-TEL" },
+  { "word": "Magkita tayo sa bangko", "pronunciation": "mag-ki-TA TA-yoh sa BANG-koh" },
+  { "word": "Magkita tayo sa post office", "pronunciation": "mag-ki-TA TA-yoh sa post O-fis" },
+  { "word": "Magkita tayo sa pulis station", "pronunciation": "mag-ki-TA TA-yoh sa POO-lis STEY-shon" },
+  { "word": "Magkita tayo sa bumbero station", "pronunciation": "mag-ki-TA TA-yoh sa bum-BE-roh STEY-shon" },
+  { "word": "Magkita tayo sa (day of the week)", "pronunciation": "mag-ki-TA TA-yoh sa (day of the week)" },
+  { "word": "Magkita tayo sa Lunes", "pronunciation": "mag-ki-TA TA-yoh sa LOO-nes" },
+  { "word": "Magkita tayo sa Martes", "pronunciation": "mag-ki-TA TA-yoh sa MAR-tes" },
+  { "word": "Magkita tayo sa Miyerkules", "pronunciation": "mag-ki-TA TA-yoh sa myer-KOO-les" },
+  { "word": "Magkita tayo sa Huwebes", "pronunciation": "mag-ki-TA TA-yoh sa hoo-WE-bes" },
+  { "word": "Magkita tayo sa Biyernes", "pronunciation": "mag-ki-TA TA-yoh sa byer-NES" },
+  { "word": "Magkita tayo sa Sabado", "pronunciation": "mag-ki-TA TA-yoh sa sa-BA-doh" },
+  { "word": "Magkita tayo sa Linggo", "pronunciation": "mag-ki-TA TA-yoh sa ling-GO" },
+  { "word": "Magkita tayo sa umaga", "pronunciation": "mag-ki-TA TA-yoh sa oo-MA-ga" },
+  { "word": "Magkita tayo sa tanghali", "pronunciation": "mag-ki-TA TA-yoh sa tang-HA-lee" },
+  { "word": "Magkita tayo sa hapon", "pronunciation": "mag-ki-TA TA-yoh sa HA-pon" },
+  { "word": "Magkita tayo sa gabi", "pronunciation": "mag-ki-TA TA-yoh sa GA-bee" },
+  { "word": "Magkita tayo sa madaling araw", "pronunciation": "mag-ki-TA TA-yoh sa ma-da-LING A-raw" },
+  { "word": "Magkita tayo sa hatinggabi", "pronunciation": "mag-ki-TA TA-yoh sa ha-ting-GA-bee" },
+  { "word": "Magkita tayo sa (month)", "pronunciation": "mag-ki-TA TA-yoh sa (month)" },
+  { "word": "Magkita tayo sa Enero", "pronunciation": "mag-ki-TA TA-yoh sa e-NE-roh" },
+  { "word": "Magkita tayo sa Pebrero", "pronunciation": "mag-ki-TA TA-yoh sa peb-RE-roh" },
+  { "word": "Magkita tayo sa Marso", "pronunciation": "mag-ki-TA TA-yoh sa MAR-soh" },
+  { "word": "Magkita tayo sa Abril", "pronunciation": "mag-ki-TA TA-yoh sa AB-ril" },
+  { "word": "Magkita tayo sa Mayo", "pronunciation": "mag-ki-TA TA-yoh sa MA-yoh" },
+  { "word": "Magkita tayo sa Hunyo", "pronunciation": "mag-ki-TA TA-yoh sa HUN-yoh" },
+  { "word": "Magkita tayo sa Hulyo", "pronunciation": "mag-ki-TA TA-yoh sa HUL-yoh" },
+  { "word": "Magkita tayo sa Agosto", "pronunciation": "mag-ki-TA TA-yoh sa a-GOS-toh" },
+  { "word": "Magkita tayo sa Setyembre", "pronunciation": "mag-ki-TA TA-yoh sa set-YEM-breh" },
+  { "word": "Magkita tayo sa Oktubre", "pronunciation": "mag-ki-TA TA-yoh sa ok-TOO-breh" },
+  { "word": "Magkita tayo sa Nobyembre", "pronunciation": "mag-ki-TA TA-yoh sa no-byem-BREH" },
+  { "word": "Magkita tayo sa Disyembre", "pronunciation": "mag-ki-TA TA-yoh sa di-syem-BREH" },
+  { "word": "Magkita tayo sa (year)", "pronunciation": "mag-ki-TA TA-yoh sa (year)" },
+  { "word": "Magkita tayo sa 2023", "pronunciation": "mag-ki-TA TA-yoh sa two thousand twenty three" }, # Example year, replace with others
+  { "word": "Magkita tayo sa (time)", "pronunciation": "mag-ki-TA TA-yoh sa (time)" },
+  { "word": "Magkita tayo sa ika- (number) ng (month)", "pronunciation": "mag-ki-TA TA-yoh sa ee-ka- (number) ng (month)" }, # Example date format
+  { "word": "Magkita tayo sa ika-1 ng Enero", "pronunciation": "mag-ki-TA TA-yoh sa ee-ka-oo-NA ng e-NE-roh" }, # Example date
+  { "word": "Magkita tayo sa (specific event)", "pronunciation": "mag-ki-TA TA-yoh sa (specific event)" },
+  { "word": "Magkita tayo sa kaarawan mo", "pronunciation": "mag-ki-TA TA-yoh sa ka-a-RA-wan moh" }, # Birthday
+  { "word": "Magkita tayo sa Pasko", "pronunciation": "mag-ki-TA TA-yoh sa PAS-koh" }, # Christmas
+  { "word": "Magkita tayo sa Bagong Taon", "pronunciation": "mag-ki-TA TA-yoh sa ba-GONG ta-OHN" }, # New Year
+  { "word": "Magkita tayo sa kasal", "pronunciation": "mag-ki-TA TA-yoh sa ka-SAL" }, # Wedding
+  { "word": "Magkita tayo sa piyesta", "pronunciation": "mag-ki-TA TA-yoh sa pyes-TA" }, # Fiesta
+  { "word": "Magkita tayo sa concert", "pronunciation": "mag-ki-TA TA-yoh sa KON-sert" }, # Concert
+  { "word": "Magkita tayo sa sine", "pronunciation": "mag-ki-TA TA-yoh sa SI-neh" }, # Movie theater
+  { "word": "Magkita tayo sa party", "pronunciation": "mag-ki-TA TA-yoh sa PAR-tee" }, # Party
+  { "word": "Magkita tayo sa meeting", "pronunciation": "mag-ki-TA TA-yoh sa MEE-ting" }, # Meeting
+  { "word": "Magkita tayo sa seminar", "pronunciation": "mag-ki-TA TA-yoh sa SE-mi-nar" }, # Seminar
+  { "word": "Magkita tayo sa workshop", "pronunciation": "mag-ki-TA TA-yoh sa WORK-shop" }, # Workshop
+  { "word": "Magkita tayo sa conference", "pronunciation": "mag-ki-TA TA-yoh sa KON-fe-rens" }, # Conference
+  { "word": "Magkita tayo sa exhibit", "pronunciation": "mag-ki-TA TA-yoh sa ek-SI-bit" }, # Exhibit
+  { "word": "Magkita tayo sa fair", "pronunciation": "mag-ki-TA TA-yoh sa fair" }, # Fair
+  { "word": "Magkita tayo sa festival", "pronunciation": "mag-ki-TA TA-yoh sa fes-ti-VAL" }, # Festival
+  { "word": "Magkita tayo sa parade", "pronunciation": "mag-ki-TA TA-yoh sa pa-RAD" }, # Parade
+  { "word": "Magkita tayo sa rally", "pronunciation": "mag-ki-TA TA-yoh sa RAL-lee" }, # Rally
+  { "word": "Magkita tayo sa protest", "pronunciation": "mag-ki-TA TA-yoh sa PROH-test" }, # Protest
+  { "word": "Magkita tayo sa demonstration", "pronunciation": "mag-ki-TA TA-yoh sa de-mon-stra-SYON" }, # Demonstration
+  { "word": "Magkita tayo sa march", "pronunciation": "mag-ki-TA TA-yoh sa march" }, # March
+  { "word": "Magkita tayo sa vigil", "pronunciation": "mag-ki-TA TA-yoh sa VI-gil" }, # Vigil
+  { "word": "Magkita tayo sa funeral", "pronunciation": "mag-ki-TA TA-yoh sa FYOO-ne-ral" }, # Funeral
+  { "word": "Magkita tayo sa memorial", "pronunciation": "mag-ki-TA TA-yoh sa me-MOR-yal" }, # Memorial
+  { "word": "Magkita tayo sa service", "pronunciation": "mag-ki-TA TA-yoh sa SER-vis" }, # Service
+  { "word": "Magkita tayo sa mass", "pronunciation": "mag-ki-TA TA-yoh sa mass" }, # Mass
+  { "word": "Magkita tayo sa prayer meeting", "pronunciation": "mag-ki-TA TA-yoh sa prayer MEE-ting" }, # Prayer meeting
+  { "word": "Magkita tayo sa Bible study", "pronunciation": "mag-ki-TA TA-yoh sa BI-ble STU-dee" }, # Bible study
+  { "word": "Magkita tayo sa fellowship", "pronunciation": "mag-ki-TA TA-yoh sa FEL-low-ship" }, # Fellowship
+  { "word": "Magkita tayo sa retreat", "pronunciation": "mag-ki-TA TA-yoh sa re-TREAT" }, # Retreat
+  { "word": "Magkita tayo sa pilgrimage", "pronunciation": "mag-ki-TA TA-yoh sa PIL-gri-maj" }, # Pilgrimage
+  { "word": "Magkita tayo sa mission trip", "pronunciation": "mag-ki-TA TA-yoh sa MI-shon trip" }, # Mission trip
+  { "word": "Magkita tayo sa outreach program", "pronunciation": "mag-ki-TA TA-yoh sa OUT-reach PROH-gram" }, # Outreach program
+  { "word": "Magkita tayo sa community service", "pronunciation": "mag-ki-TA TA-yoh sa ko-MYOO-ni-tee SER-vis" }, # Community service
+  { "word": "Magkita tayo sa volunteer work", "pronunciation": "mag-ki-TA TA-yoh sa vo-lun-TEER werk" }, # Volunteer work
+  { "word": "Magkita tayo sa charity event", "pronunciation": "mag-ki-TA TA-yoh sa CHA-ri-tee e-VENT" }, # Charity event
+  { "word": "Magkita tayo sa fundraiser", "pronunciation": "mag-ki-TA TA-yoh sa FUND-ray-ser" }, # Fundraiser
+  { "word": "Magkita tayo sa benefit concert", "pronunciation": "mag-ki-TA TA-yoh sa BE-ne-fit KON-sert" }, # Benefit concert
+  { "word": "Magkita tayo sa gala", "pronunciation": "mag-ki-TA TA-yoh sa GA-la" }, # Gala
+  { "word": "Magkita tayo sa ball", "pronunciation": "mag-ki-TA TA-yoh sa ball" }, # Ball
+  { "word": "Magkita tayo sa dance", "pronunciation": "mag-ki-TA TA-yoh sa dance" }, # Dance
+  { "word": "Magkita tayo sa party", "pronunciation": "mag-ki-TA TA-yoh sa PAR-tee" }, # Party (again - for emphasis on frequency)
+  { "word": "Magkita tayo sa celebration", "pronunciation": "mag-ki-TA TA-yoh sa se-le-BREY-shon" }, # Celebration
+  { "word": "Magkita tayo sa reunion", "pronunciation": "mag-ki-TA TA-yoh sa re-YU-nyon" }, # Reunion
+  { "word": "Magkita tayo sa anniversary", "pronunciation": "mag-ki-TA TA-yoh sa a-ni-VER-se-ree" }, # Anniversary
+  { "word": "Magkita tayo sa birthday party", "pronunciation": "mag-ki-TA TA-yoh sa BERTH-day PAR-tee" }, # Birthday party
+  { "word": "Magkita tayo sa wedding reception", "pronunciation": "mag-ki-TA TA-yoh sa WED-ding re-SEP-shon" }, # Wedding reception
+  { "word": "Magkita tayo sa Christmas party", "pronunciation": "mag-ki-TA TA-yoh sa KRIS-mas PAR-tee" }, # Christmas party
+  { "word": "Magkita tayo sa New Year's Eve party", "pronunciation": "mag-ki-TA TA-yoh sa new YEARZ eev PAR-tee" }, # New Year's Eve party
+  { "word": "Magkita tayo sa Halloween party", "pronunciation": "mag-ki-TA TA-yoh sa ha-low-WEEN PAR-tee" }, # Halloween party
+  { "word": "Magkita tayo sa Thanksgiving dinner", "pronunciation": "mag-ki-TA TA-yoh sa thanks-GIV-ing DIN-ner" }, # Thanksgiving dinner
+  { "word": "Magkita tayo sa picnic", "pronunciation": "mag-ki-TA TA-yoh sa PIK-nik" }, # Picnic
+  { "word": "Magkita tayo sa barbecue", "pronunciation": "mag-ki-TA TA-yoh sa BAR-be-kyoo" }, # Barbecue
+  { "word": "Magkita tayo sa potluck", "pronunciation": "mag-ki-TA TA-yoh sa POT-luk" }, # Potluck
+  { "word": "Magkita tayo sa brunch", "pronunciation": "mag-ki-TA TA-yoh sa brunch" }, # Brunch
+  { "word": "Magkita tayo sa breakfast", "pronunciation": "mag-ki-TA TA-yoh sa BREK-fast" }, # Breakfast
+  { "word": "Magkita tayo sa lunch", "pronunciation": "mag-ki-TA TA-yoh sa lunch" }, # Lunch
+  { "word": "Magkita tayo sa dinner", "pronunciation": "mag-ki-TA TA-yoh sa DIN-ner" }, # Dinner
+  { "word": "Magkita tayo sa snack", "pronunciation": "mag-ki-TA TA-yoh sa snack" }, # Snack
+  { "word": "Magkita tayo sa coffee break", "pronunciation": "mag-ki-TA TA-yoh sa KO-fee break" }, # Coffee break
+  { "word": "Magkita tayo sa tea time", "pronunciation": "mag-ki-TA TA-yoh sa tea time" }, # Tea time
+  { "word": "Magkita tayo sa happy hour", "pronunciation": "mag-ki-TA TA-yoh sa HA-pee OUR" }, # Happy hour
+  { "word": "Magkita tayo sa late night snack", "pronunciation": "mag-ki-TA TA-yoh sa late nite snack" }, # Late night snack
+  { "word": "Magkita tayo sa midnight snack", "pronunciation": "mag-ki-TA TA-yoh sa MID-nite snack" }, # Midnight snack
+  { "word": "Magkita tayo sa after-dinner drinks", "pronunciation": "mag-ki-TA TA-yoh sa AF-ter-DIN-ner drinks" }, # After-dinner drinks
+  { "word": "Magkita tayo sa nightcap", "pronunciation": "mag-ki-TA TA-yoh sa NITE-cap" }, # Nightcap
+  { "word": "Magkita tayo sa dessert", "pronunciation": "mag-ki-TA TA-yoh sa de-ZERT" }, # Dessert
+  { "word": "Magkita tayo sa appetizer", "pronunciation": "mag-ki-TA TA-yoh sa A-pe-ti-zer" }, # Appetizer
+  { "word": "Magkita tayo sa main course", "pronunciation": "mag-ki-TA TA-yoh sa main course" }, # Main course
+  { "word": "Magkita tayo sa side dish", "pronunciation": "mag-ki-TA TA-yoh sa side dish" }, # Side dish
+  { "word": "Magkita tayo sa salad", "pronunciation": "mag-ki-TA TA-yoh sa SA-lad" }, # Salad
+  { "word": "Magkita tayo sa soup", "pronunciation": "mag-ki-TA TA-yoh sa soup" }, # Soup
+  { "word": "Magkita tayo sa sandwich", "pronunciation": "mag-ki-TA TA-yoh sa SAND-wich" }, # Sandwich
+  { "word": "Magkita tayo sa burger", "pronunciation": "mag-ki-TA TA-yoh sa BUR-ger" }, # Burger
+  { "word": "Magkita tayo sa pizza", "pronunciation": "mag-ki-TA TA-yoh sa PEET-za" }, # Pizza
+  { "word": "Magkita tayo sa pasta", "pronunciation": "mag-ki-TA TA-yoh sa PAS-ta" }, # Pasta
+  { "word": "Magkita tayo sa rice", "pronunciation": "mag-ki-TA TA-yoh sa rice" }, # Rice
+  { "word": "Magkita tayo sa noodles", "pronunciation": "mag-ki-TA TA-yoh sa NOO-dels" }, # Noodles
+  { "word": "Magkita tayo sa bread", "pronunciation": "mag-ki-TA TA-yoh sa bread" }, # Bread
+  { "word": "Magkita tayo sa cake", "pronunciation": "mag-ki-TA TA-yoh sa cake" }, # Cake
+  { "word": "Magkita tayo sa ice cream", "pronunciation": "mag-ki-TA TA-yoh sa ice cream" }, # Ice cream
+  { "word": "Magkita tayo sa chocolate", "pronunciation": "mag-ki-TA TA-yoh sa CHO-ko-late" }, # Chocolate
+  { "word": "Magkita tayo sa candy", "pronunciation": "mag-ki-TA TA-yoh sa KAN-dee" }, # Candy
+  { "word": "Magkita tayo sa fruit", "pronunciation": "mag-ki-TA TA-yoh sa fruit" }, # Fruit
+  { "word": "Magkita tayo sa vegetables", "pronunciation": "mag-ki-TA TA-yoh sa VE-je-ta-bles" }, # Vegetables
+  { "word": "Magkita tayo sa meat", "pronunciation": "mag-ki-TA TA-yoh sa meat" }, # Meat
+  { "word": "Magkita tayo sa fish", "pronunciation": "mag-ki-TA TA-yoh sa fish" }, # Fish
+  { "word": "Magkita tayo sa chicken", "pronunciation": "mag-ki-TA TA-yoh sa CHI-ken" }, # Chicken
+  { "word": "Magkita tayo sa pork", "pronunciation": "mag-ki-TA TA-yoh sa pork" }, # Pork
+  { "word": "Magkita tayo sa beef", "pronunciation": "mag-ki-TA TA-yoh sa beef" }, # Beef
+  { "word": "Magkita tayo sa seafood", "pronunciation": "mag-ki-TA TA-yoh sa SEE-food" }, # Seafood
+  { "word": "Magkita tayo sa drinks", "pronunciation": "mag-ki-TA TA-yoh sa drinks" }, # Drinks
+  { "word": "Magkita tayo sa water", "pronunciation": "mag-ki-TA TA-yoh sa WA-ter" }, # Water
+  { "word": "Magkita tayo sa juice", "pronunciation": "mag-ki-TA TA-yoh sa juice" }, # Juice
+  { "word": "Magkita tayo sa soda", "pronunciation": "mag-ki-TA TA-yoh sa SO-da" }, # Soda
+  { "word": "Magkita tayo sa beer", "pronunciation": "mag-ki-TA TA-yoh sa beer" }, # Beer
+  { "word": "Magkita tayo sa wine", "pronunciation": "mag-ki-TA TA-yoh sa wine" }, # Wine
+  { "word": "Magkita tayo sa liquor", "pronunciation": "mag-ki-TA TA-yoh sa LI-kor" }, # Liquor
+  { "word": "Magkita tayo sa coffee", "pronunciation": "mag-ki-TA TA-yoh sa KO-fee" }, # Coffee
+  { "word": "Magkita tayo sa tea", "pronunciation": "mag-ki-TA TA-yoh sa tea" }, # Tea
+  { "word": "Magkita tayo sa milk", "pronunciation": "mag-ki-TA TA-yoh sa milk" }, # Milk
+  { "word": "Magkita tayo sa sugar", "pronunciation": "mag-ki-TA TA-yoh sa SHOO-gar" }, # Sugar
+  { "word": "Magkita tayo sa salt", "pronunciation": "mag-ki-TA TA-yoh sa salt" }, # Salt
+  { "word": "Magkita tayo sa pepper", "pronunciation": "mag-ki-TA TA-yoh sa PEP-per" }, # Pepper
+  { "word": "Magkita tayo sa spices", "pronunciation": "mag-ki-TA TA-yoh sa SPI-ses" }, # Spices
+  { "word": "Magkita tayo sa herbs", "pronunciation": "mag-ki-TA TA-yoh sa herbs" }, # Herbs
+  { "word": "Magkita tayo sa condiments", "pronunciation": "mag-ki-TA TA-yoh sa kon-di-MENTS" }, # Condiments
+  { "word": "Magkita tayo sa utensils", "pronunciation": "mag-ki-TA TA-yoh sa yoo-TEN-sils" }, # Utensils
+  { "word": "Magkita tayo sa plates", "pronunciation": "mag-ki-TA TA-yoh sa plates" }, # Plates
+  { "word": "Magkita tayo sa cups", "pronunciation": "mag-ki-TA TA-yoh sa cups" }, # Cups
+  { "word": "Magkita tayo sa glasses", "pronunciation": "mag-ki-TA TA-yoh sa GLAS-ses" }, # Glasses
+  { "word": "Magkita tayo sa napkins", "pronunciation": "mag-ki-TA TA-yoh sa NAP-kins" }, # Napkins
+  { "word": "Magkita tayo sa tablecloth", "pronunciation": "mag-ki-TA TA-yoh sa TABLE-cloth" }, # Tablecloth
+  { "word": "Magkita tayo sa chairs", "pronunciation": "mag-ki-TA TA-yoh sa chairs" }, # Chairs
+  { "word": "Magkita tayo sa table", "pronunciation": "mag-ki-TA TA-yoh sa TABLE" }, # Table
+  { "word": "Magkita tayo sa restaurant", "pronunciation": "mag-ki-TA TA-yoh sa RES-taw-rant" }, # Restaurant
+  { "word": "Magkita tayo sa cafe", "pronunciation": "mag-ki-TA TA-yoh sa ka-FAY" }, # Cafe
+  { "word": "Magkita tayo sa bar", "pronunciation": "mag-ki-TA TA-yoh sa bar" }, # Bar
+  { "word": "Magkita tayo sa club", "pronunciation": "mag-ki-TA TA-yoh sa club" }, # Club
+  { "word": "Magkita tayo sa pub", "pronunciation": "mag-ki-TA TA-yoh sa pub" }, # Pub
+  { "word": "Magkita tayo sa lounge", "pronunciation": "mag-ki-TA TA-yoh sa lounge" }, # Lounge
+  { "word": "Magkita tayo sa diner", "pronunciation": "mag-ki-TA TA-yoh sa DI-ner" }, # Diner
+  { "word": "Magkita tayo sa fast food", "pronunciation": "mag-ki-TA TA-yoh sa fast food" }, # Fast food
+  { "word": "Magkita tayo sa food court", "pronunciation": "mag-ki-TA TA-yoh sa food court" }, # Food court
+  { "word": "Magkita tayo sa food truck", "pronunciation": "mag-ki-TA TA-yoh sa food truck" }, # Food truck
+  { "word": "Magkita tayo sa street food", "pronunciation": "mag-ki-TA TA-yoh sa street food" }, # Street food
+  { "word": "Magkita tayo sa market", "pronunciation": "mag-ki-TA TA-yoh sa MAR-ket" }, # Market
+  { "word": "Magkita tayo sa grocery store", "pronunciation": "mag-ki-TA TA-yoh sa GRO-se-ree store" }, # Grocery store
+  { "word": "Magkita tayo sa supermarket", "pronunciation": "mag-ki-TA TA-yoh sa SOO-per-mar-ket" }, # Supermarket
+  { "word": "Magkita tayo sa shopping mall", "pronunciation": "mag-ki-TA TA-yoh sa SHOP-ping mawl" }, # Shopping mall
+  { "word": "Magkita tayo sa department store", "pronunciation": "mag-ki-TA TA-yoh sa de-PART-ment store" }, # Department store
+  { "word": "Magkita tayo sa convenience store", "pronunciation": "mag-ki-TA TA-yoh sa kon-VEEN-yens store" }, # Convenience store
+  { "word": "Magkita tayo sa bookstore", "pronunciation": "mag-ki-TA TA-yoh sa BOOK-store" }, # Bookstore
+  { "word": "Magkita tayo sa library", "pronunciation": "mag-ki-TA TA-yoh sa LI-bra-ree" }, # Library
+  { "word": "Magkita tayo sa museum", "pronunciation": "mag-ki-TA TA-yoh sa myoo-ZEE-um" }, # Museum
+  { "word": "Magkita tayo sa art gallery", "pronunciation": "mag-ki-TA TA-yoh sa art GAL-le-ree" }, # Art gallery
+  { "word": "Magkita tayo sa park", "pronunciation": "mag-ki-TA TA-yoh sa park" }, # Park (again)
+  { "word": "Magkita tayo sa garden", "pronunciation": "mag-ki-TA TA-yoh sa GAR-den" }, # Garden
+  { "word": "Magkita tayo sa beach", "pronunciation": "mag-ki-TA TA-yoh sa beach" }, # Beach
+  { "word": "Magkita tayo sa mountain", "pronunciation": "mag-ki-TA TA-yoh sa MOUN-tain" }, # Mountain
+  { "word": "Magkita tayo sa forest", "pronunciation": "mag-ki-TA TA-yoh sa FOR-est" }, # Forest
+  { "word": "Magkita tayo sa lake", "pronunciation": "mag-ki-TA TA-yoh sa lake" }, # Lake
+  { "word": "Magkita tayo sa river", "pronunciation": "mag-ki-TA TA-yoh sa RI-ver" }, # River
+  { "word": "Magkita tayo sa ocean", "pronunciation": "mag-ki-TA TA-yoh sa OH-shan" }, # Ocean
+  { "word": "Magkita tayo sa island", "pronunciation": "mag-ki-TA TA-yoh sa I-land" }, # Island
+  { "word": "Magkita tayo sa city", "pronunciation": "mag-ki-TA TA-yoh sa SI-tee" }, # City
+  { "word": "Magkita tayo sa town", "pronunciation": "mag-ki-TA TA-yoh sa town" }, # Town
+  { "word": "Magkita tayo sa village", "pronunciation": "mag-ki-TA TA-yoh sa VIL-lage" }, # Village
+  { "word": "Magkita tayo sa countryside", "pronunciation": "mag-ki-TA TA-yoh sa COUN-try-side" }, # Countryside
+  { "word": "Magkita tayo sa province", "pronunciation": "mag-ki-TA TA-yoh sa PRO-vince" }, # Province
+  { "word": "Magkita tayo sa state", "pronunciation": "mag-ki-TA TA-yoh sa state" }, # State
+  { "word": "Magkita tayo sa country", "pronunciation": "mag-ki-TA TA-yoh sa COUN-tree" }, # Country
+  { "word": "Magkita tayo sa world", "pronunciation": "mag-ki-TA TA-yoh sa world" }, # World
+  { "word": "Magkita tayo sa planet", "pronunciation": "mag-ki-TA TA-yoh sa PLA-net" }, # Planet
+  { "word": "Magkita tayo sa universe", "pronunciation": "mag-ki-TA TA-yoh sa YOO-ni-vers" }, # Universe
+  { "word": "Magkita tayo sa galaxy", "pronunciation": "mag-ki-TA TA-yoh sa GAL-ax-ee" }, # Galaxy
+  { "word": "Magkita tayo sa solar system", "pronunciation": "mag-ki-TA TA-yoh sa SO-lar SIS-tem" }, # Solar system
+  { "word": "Magkita tayo sa space", "pronunciation": "mag-ki-TA TA-yoh sa space" }, # Space
+  { "word": "Magkita tayo sa stars", "pronunciation": "mag-ki-TA TA-yoh sa stars" }, # Stars
+  { "word": "Magkita tayo sa moon", "pronunciation": "mag-ki-TA TA-yoh sa moon" }, # Moon
+  { "word": "Magkita tayo sa sun", "pronunciation": "mag-ki-TA TA-yoh sa sun" }, # Sun
+  { "word": "Magkita tayo sa earth", "pronunciation": "mag-ki-TA TA-yoh sa earth" }, # Earth
+  { "word": "Magkita tayo sa sky", "pronunciation": "mag-ki-TA TA-yoh sa sky" }, # Sky
+  { "word": "Magkita tayo sa clouds", "pronunciation": "mag-ki-TA TA-yoh sa clouds" }, # Clouds
+  { "word": "Magkita tayo sa rain", "pronunciation": "mag-ki-TA TA-yoh sa rain" }, # Rain
+  { "word": "Magkita tayo sa snow", "pronunciation": "mag-ki-TA TA-yoh sa snow" }, # Snow
+  { "word": "Magkita tayo sa wind", "pronunciation": "mag-ki-TA TA-yoh sa wind" }, # Wind
+  { "word": "Magkita tayo sa storm", "pronunciation": "mag-ki-TA TA-yoh sa storm" }, # Storm
+  { "word": "Magkita tayo sa typhoon", "pronunciation": "mag-ki-TA TA-yoh sa ty-PHOON" }, # Typhoon
+  { "word": "Magkita tayo sa earthquake", "pronunciation": "mag-ki-TA TA-yoh sa EARTH-quake" }, # Earthquake
+  { "word": "Magkita tayo sa tsunami", "pronunciation": "mag-ki-TA TA-yoh sa tsoo-NA-mee" }, # Tsunami
+  { "word": "Magkita tayo sa volcano", "pronunciation": "mag-ki-TA TA-yoh sa vol-KA-noh" }, # Volcano
+  { "word": "Magkita tayo sa fire", "pronunciation": "mag-ki-TA TA-yoh sa FIRE" }, # Fire
+  { "word": "Magkita tayo sa flood", "pronunciation": "mag-ki-TA TA-yoh sa flood" }, # Flood
+  { "word": "Magkita tayo sa drought", "pronunciation": "mag-ki-TA TA-yoh sa drought" }, # Drought
+  { "word": "Magkita tayo sa famine", "pronunciation": "mag-ki-TA TA-yoh sa FA-min" }, # Famine
+  { "word": "Magkita tayo sa war", "pronunciation": "mag-ki-TA TA-yoh sa war" }, # War
+  { "word": "Magkita tayo sa peace", "pronunciation": "mag-ki-TA TA-yoh sa peace" }, # Peace
+  { "word": "Magkita tayo sa love", "pronunciation": "mag-ki-TA TA-yoh sa love" }, # Love
+  { "word": "Magkita tayo sa hate", "pronunciation": "mag-ki-TA TA-yoh sa hate" }, # Hate
+  { "word": "Magkita tayo sa joy", "pronunciation": "mag-ki-TA TA-yoh sa joy" }, # Joy
+  { "word": "Magkita tayo sa sadness", "pronunciation": "mag-ki-TA TA-yoh sa SAD-ness" }, # Sadness
+  { "word": "Magkita tayo sa anger", "pronunciation": "mag-ki-TA TA-yoh sa AN-ger" }, # Anger
+  { "word": "Magkita tayo sa fear", "pronunciation": "mag-ki-TA TA-yoh sa fear" }, # Fear
+  { "word": "Magkita tayo sa hope", "pronunciation": "mag-ki-TA TA-yoh sa hope" }, # Hope
+  { "word": "Magkita tayo sa despair", "pronunciation": "mag-ki-TA TA-yoh sa des-PAIR" }, # Despair
+  { "word": "Magkita tayo sa faith", "pronunciation": "mag-ki-TA TA-yoh sa faith" }, # Faith
+  { "word": "Magkita tayo sa doubt", "pronunciation": "mag-ki-TA TA-yoh sa doubt" }, # Doubt
+  { "word": "Magkita tayo sa belief", "pronunciation": "mag-ki-TA TA-yoh sa be-LEEF" }, # Belief
+  { "word": "Magkita tayo sa disbelief", "pronunciation": "mag-ki-TA TA-yoh sa dis-be-LEEF" }, # Disbelief
+  { "word": "Magkita tayo sa truth", "pronunciation": "mag-ki-TA TA-yoh sa truth" }, # Truth
+  { "word": "Magkita tayo sa lie", "pronunciation": "mag-ki-TA TA-yoh sa lie" }, # Lie
+  { "word": "Magkita tayo sa honesty", "pronunciation": "mag-ki-TA TA-yoh sa ON-es-tee" }, # Honesty
+  { "word": "Magkita tayo sa deceit", "pronunciation": "mag-ki-TA TA-yoh sa de-CEET" }, # Deceit
+  { "word": "Magkita tayo sa good", "pronunciation": "mag-ki-TA TA-yoh sa good" }, # Good
+  { "word": "Magkita tayo sa bad", "pronunciation": "mag-ki-TA TA-yoh sa bad" }, # Bad
+  { "word": "Magkita tayo sa right", "pronunciation": "mag-ki-TA TA-yoh sa right" }, # Right
+  { "word": "Magkita tayo sa wrong", "pronunciation": "mag-ki-TA TA-yoh sa wrong" }, # Wrong
+  { "word": "Magkita tayo sa yes", "pronunciation": "mag-ki-TA TA-yoh sa yes" }, # Yes
+  { "word": "Magkita tayo sa no", "pronunciation": "mag-ki-TA TA-yoh sa no" }, # No
+  { "word": "Magkita tayo sa maybe", "pronunciation": "mag-ki-TA TA-yoh sa MAY-bee" }, # Maybe
+  { "word": "Magkita tayo sa perhaps", "pronunciation": "mag-ki-TA TA-yoh sa per-HAPS" }, # Perhaps
+  { "word": "Magkita tayo sa definitely", "pronunciation": "mag-ki-TA TA-yoh sa DE-fi-nit-lee" }, # Definitely
+  { "word": "Magkita tayo sa absolutely", "pronunciation": "mag-ki-TA TA-yoh sa AB-so-loot-lee" }, # Absolutely
+  { "word": "Magkita tayo sa certainly", "pronunciation": "mag-ki-TA TA-yoh sa CER-tain-lee" }, # Certainly
+  { "word": "Magkita tayo sa possibly", "pronunciation": "mag-ki-TA TA-yoh sa POS-si-blee" }, # Possibly
+  { "word": "Magkita tayo sa probably", "pronunciation": "mag-ki-TA TA-yoh sa PRO-ba-blee" }, # Probably
+  { "word": "Magkita tayo sa unlikely", "pronunciation": "mag-ki-TA TA-yoh sa un-LIKE-lee" }, # Unlikely
+  { "word": "Magkita tayo sa impossible", "pronunciation": "mag-ki-TA TA-yoh sa im-POS-si-ble" }, # Impossible
+  { "word": "Magkita tayo sa always", "pronunciation": "mag-ki-TA TA-yoh sa ALL-ways" }, # Always
+  { "word": "Magkita tayo sa never", "pronunciation": "mag-ki-TA TA-yoh sa NE-ver" }, # Never
+  { "word": "Magkita tayo sa sometimes", "pronunciation": "mag-ki-TA TA-yoh sa SUM-times" }, # Sometimes
+  { "word": "Magkita tayo sa often", "pronunciation": "mag-ki-TA TA-yoh sa OF-ten" }, # Often
+  { "word": "Magkita tayo sa rarely", "pronunciation": "mag-ki-TA TA-yoh sa RARE-lee" }, # Rarely
+  { "word": "Magkita tayo sa seldom", "pronunciation": "mag-ki-TA TA-yoh sa SEL-dom" }, # Seldom
+  { "word": "Magkita tayo sa usually", "pronunciation": "mag-ki-TA TA-yoh sa YOO-zhoo-al-lee" }, # Usually
+  { "word": "Magkita tayo sa generally", "pronunciation": "mag-ki-TA TA-yoh sa GEN-e-ral-lee" }, # Generally
+  { "word": "Magkita tayo sa typically", "pronunciation": "mag-ki-TA TA-yoh sa TIP-i-kal-lee" }, # Typically
+  { "word": "Magkita tayo sa normally", "pronunciation": "mag-ki-TA TA-yoh sa NOR-mal-lee" }, # Normally
+  { "word": "Magkita tayo sa occasionally", "pronunciation": "mag-ki-TA TA-yoh sa o-KAY-zhun-al-lee" }, # Occasionally
+  { "word": "Magkita tayo sa infrequently", "pronunciation": "mag-ki-TA TA-yoh sa in-FREE-kwent-lee" }, # Infrequently
+  { "word": "Magkita tayo sa rarely ever", "pronunciation": "mag-ki-TA TA-yoh sa RARE-lee E-ver" }, # Rarely ever
+  { "word": "Magkita tayo sa almost never", "pronunciation": "mag-ki-TA TA-yoh sa ALL-most NE-ver" }, # Almost never
+  { "word": "Magkita tayo sa hardly ever", "pronunciation": "mag-ki-TA TA-yoh sa HARD-lee E-ver" }, # Hardly ever
+  { "word": "Magkita tayo sa scarcely ever", "pronunciation": "mag-ki-TA TA-yoh sa SCAR-ce-lee E-ver" }, # Scarcely ever
+  { "word": "Magkita tayo sa almost always", "pronunciation": "mag-ki-TA TA-yoh sa ALL-most ALL-ways" }, # Almost always
+  { "word": "Magkita tayo sa nearly always", "pronunciation": "mag-ki-TA TA-yoh sa NEAR-lee ALL-ways" }, # Nearly always
+  { "word": "Magkita tayo sa practically always", "pronunciation": "mag-ki-TA TA-yoh sa prak-ti-kal-lee ALL-ways" }, # Practically always
+  { "word": "Magkita tayo sa virtually always", "pronunciation": "mag-ki-TA TA-yoh sa VIR-choo-al-lee ALL-ways" }, # Virtually always
+  { "word": "Magkita tayo sa every time", "pronunciation": "mag-ki-TA TA-yoh sa E-vree time" }, # Every time
+  { "word": "Magkita tayo sa each time", "pronunciation": "mag-ki-TA TA-yoh sa each time" }, # Each time
+  { "word": "Magkita tayo sa whenever", "pronunciation": "mag-ki-TA TA-yoh sa when-E-ver" }, # Whenever
+  { "word": "Magkita tayo sa as soon as", "pronunciation": "mag-ki-TA TA-yoh sa as soon as" }, # As soon as
+  { "word": "Magkita tayo sa immediately", "pronunciation": "mag-ki-TA TA-yoh sa im-MEE-dee-at-lee" }, # Immediately
+  { "word": "Magkita tayo sa right away", "pronunciation": "mag-ki-TA TA-yoh sa right a-WAY" }, # Right away
+  { "word": "Magkita tayo sa instantly", "pronunciation": "mag-ki-TA TA-yoh sa IN-stant-lee" }, # Instantly
+  { "word": "Magkita tayo sa suddenly", "pronunciation": "mag-ki-TA TA-yoh sa SUD-den-lee" }, # Suddenly
+  { "word": "Magkita tayo sa unexpectedly", "pronunciation": "mag-ki-TA TA-yoh sa un-ex-PEK-ted-lee" }, # Unexpectedly
+  { "word": "Magkita tayo sa surprisingly", "pronunciation": "mag-ki-TA TA-yoh sa sur-PRI-zing-lee" }, # Surprisingly
+  { "word": "Magkita tayo sa gradually", "pronunciation": "mag-ki-TA TA-yoh sa GRAD-yoo-al-lee" }, # Gradually
+  { "word": "Magkita tayo sa slowly", "pronunciation": "mag-ki-TA TA-yoh sa SLO-lee" }, # Slowly
+  { "word": "Magkita tayo sa little by little", "pronunciation": "mag-ki-TA TA-yoh sa LI-tle by LI-tle" }, # Little by little
+  { "word": "Magkita tayo sa bit by bit", "pronunciation": "mag-ki-TA TA-yoh sa bit by bit" }, # Bit by bit
+  { "word": "Magkita tayo sa step by step", "pronunciation": "mag-ki-TA TA-yoh sa step by step" }, # Step by step
+  { "word": "Magkita tayo sa piece by piece", "pronunciation": "mag-ki-TA TA-yoh sa piece by piece" }, # Piece by piece
+  { "word": "Magkita tayo sa one by one", "pronunciation": "mag-ki-TA TA-yoh sa one by one" }, # One by one
+  { "word": "Magkita tayo sa two by two", "pronunciation": "mag-ki-TA TA-yoh sa two by two" }, # Two by two
+  { "word": "Magkita tayo sa three by three", "pronunciation": "mag-ki-TA TA-yoh sa three by three" }, # Three by three
+  { "word": "Magkita tayo sa four by four", "pronunciation": "mag-ki-TA TA-yoh sa four by four" }, # Four by four
+  { "word": "Magkita tayo sa five by five", "pronunciation": "mag-ki-TA TA-yoh sa five by five" }, # Five by five
+  { "word": "Magkita tayo sa six by six", "pronunciation": "mag-ki-TA TA-yoh sa six by six" }, # Six by six
+  { "word": "Magkita tayo sa seven by seven", "pronunciation": "mag-ki-TA TA-yoh sa SE-ven by SE-ven" }, # Seven by seven
+  { "word": "Magkita tayo sa eight by eight", "pronunciation": "mag-ki-TA TA-yoh sa eight by eight" }, # Eight by eight
+  { "word": "Magkita tayo sa nine by nine", "pronunciation": "mag-ki-TA TA-yoh sa nine by nine" }, # Nine by nine
+  { "word": "Magkita tayo sa ten by ten", "pronunciation": "mag-ki-TA TA-yoh sa ten by ten" } # Ten by ten
+]
