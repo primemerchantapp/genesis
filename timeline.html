@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.5-Week Detailed Development Timeline: Medical Transcription System</title>
+    <style>
+        /* Reset and Base Styles */
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            font-size: 16px; /* Base font size for readability */
+        }
+
+        #glitterCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Behind all content */
+        }
+
+        /* Document Container */
+        .document-container {
+            max-width: 900px; /* Optimal width for document reading */
+            margin: 50px auto; /* Centering with space */
+            padding: 50px;
+            background-color: #1A1A1A; /* Very dark grey, slightly off black */
+            border-radius: 8px;
+            box-shadow: 0 0 25px rgba(200, 200, 200, 0.1); /* Subtle white glow */
+        }
+
+        /* Headings */
+        h1, h2, h3, h4 {
+            margin-top: 1.5em;
+            margin-bottom: 0.8em;
+            font-weight: 300; /* Lighter font weight for Helvetica */
+        }
+
+        h1 {
+            font-size: 2.8em;
+            text-align: center;
+            color: #EAEAEA; /* Dirty white for main title */
+            border-bottom: 1px solid #444444;
+            padding-bottom: 0.5em;
+            margin-bottom: 1.2em;
+        }
+
+        h2 { /* Phase Titles */
+            font-size: 2.2em;
+            color: #B0E0E6; /* Powder blue for a subtle professional accent */
+            border-bottom: 1px dashed #333333;
+            padding-bottom: 0.4em;
+            margin-top: 2em;
+        }
+
+        h3 { /* Week Titles */
+            font-size: 1.8em;
+            color: #ADD8E6; /* Light blue accent */
+        }
+
+        h4 { /* Task Group Titles */
+            font-size: 1.4em;
+            color: #CCCCCC; /* Lighter grey */
+            font-weight: normal; /* Normal weight for task titles */
+        }
+        
+        h5 { /* Deliverables section title */
+            font-size: 1.2em;
+            color: #DAA520; /* Goldenrod for Deliverables */
+            margin-top: 1em;
+            margin-bottom: 0.5em;
+            font-weight: bold;
+        }
+
+
+        /* Paragraphs and Lists */
+        p {
+            margin-bottom: 1em;
+        }
+
+        ul {
+            list-style-type: none; /* Cleaner look */
+            padding-left: 20px;
+            margin-bottom: 1em;
+        }
+
+        ul li {
+            margin-bottom: 0.6em;
+            position: relative;
+            padding-left: 25px; /* Space for custom bullet */
+        }
+
+        ul li::before {
+            content: "•"; /* Custom bullet */
+            color: #87CEFA; /* Light sky blue for bullets */
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: -2px; /* Adjust vertical alignment */
+        }
+        
+        ul ul li::before { /* Nested list bullets */
+            content: "◦"; /* Open circle for nested */
+            color: #6495ED; /* Cornflower blue */
+        }
+
+
+        strong {
+            font-weight: 600; /* Slightly bolder */
+            color: #F0E68C; /* Khaki, for emphasis */
+        }
+
+        code {
+            background-color: #282828; /* Darker grey for code blocks */
+            color: #E0E0E0;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 0.95em;
+        }
+
+        /* Deliverables Section */
+        .deliverables-section {
+            background-color: #202020; /* Slightly different dark shade */
+            border-left: 4px solid #DAA520; /* Goldenrod accent */
+            padding: 15px 20px;
+            margin-top: 1.5em;
+            margin-bottom: 2em;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #333;
+            margin: 2.5em 0;
+        }
+
+        /* Specific Notes / Objectives */
+        .objective, .output-desc {
+            font-style: italic;
+            color: #A9A9A9; /* DarkGray for less emphasis */
+            margin-bottom: 0.5em;
+            font-size: 0.95em;
+        }
+        
+        .task-item > strong { /* Objective/Output labels */
+            color: #BDB76B; /* DarkKhaki */
+        }
+
+    </style>
+</head>
+<body>
+    <canvas id="glitterCanvas"></canvas>
+
+    <div class="document-container">
+        <h1>7.5-Week Detailed Development Timeline: Medical Transcription System</h1>
+        <p style="text-align: center; font-style: italic; color: #999999; margin-bottom: 2.5em;">
+            A comprehensive week-by-week breakdown for developing a Medical Transcription System using Node.js/Express and PostgreSQL, incorporating General and Medical-Trained Speech-to-Text (STT) engines.
+        </p>
+
+        <h2>Phase 1: Foundation & Core Transcription (Approx. 4 Weeks)</h2>
+
+        <h3>Week 1 (Days 1–7): Requirements, Architecture, and Environment Setup</h3>
+        
+        <h4>1. Refine & Freeze Core Requirements (Days 1-2)</h4>
+        <p class="objective"><strong>Objective:</strong> Finalize the foundational needs of the system.</p>
+        <ul>
+            <li>Review and confirm all functional needs for initial transcription:
+                <ul>
+                    <li>Post-Recording Transcription (no real-time display initially).</li>
+                    <li>Chunking Strategy: Audio recorded in short segments, silence removal, prepare for STT.</li>
+                    <li>Maximum Session Length: Up to 1 hour per appointment.</li>
+                    <li>Initial STT: Plan for General STT (e.g., standard Whisper API) first.</li>
+                </ul>
+            </li>
+            <li>Define critical non-functional requirements:
+                <ul>
+                    <li>Reliability: Data integrity, ensuring no loss if a component fails.</li>
+                    <li>Initial Scalability: Plan for handling at least 5 concurrent 1-hour transcription jobs with General STT.</li>
+                    <li>Security/Compliance (Foundational): Plan for audio and transcript encryption at rest and in transit, basic user authentication (Doctor role).</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Internal notes on finalized core requirements.</p>
+
+        <h4>2. High-Level System Design & Data Flow (Days 2-3)</h4>
+        <p class="objective"><strong>Objective:</strong> Create a blueprint for the system.</p>
+        <ul>
+            <li>Produce a <strong>Preliminary Design Document</strong> summarizing:
+                <ul>
+                    <li>Finalized initial scope (General STT, core features).</li>
+                    <li>End-to-end data flow: Browser (Audio Capture) → Node.js Backend API → General STT Batch Service → PostgreSQL Database (Transcripts) → (Placeholder for Diarisation) → Final Transcript.</li>
+                    <li>Technology choices: Node.js/Express for backend, PostgreSQL for database, chosen General STT API.</li>
+                </ul>
+            </li>
+            <li>Create a visual <strong>Architecture Diagram</strong> showing components, interactions, and data formats.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Preliminary Design Document including Architecture Diagram.</p>
+
+        <h4>3. Local Development Environment Setup (No Docker) (Days 4-6)</h4>
+        <p class="objective"><strong>Objective:</strong> Prepare individual developer machines.</p>
+        <ul>
+            <li>Document and execute manual installation steps for: Node.js, NPM/Yarn, PostgreSQL, Redis (if used), <code>ffmpeg</code>.</li>
+            <li>Initialize Git Repository: Single monorepo (<code>backend/</code>, <code>frontend/</code>), initial <code>README.md</code> with setup instructions.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Git repository initialized. Documented local setup guide in <code>README.md</code>.</p>
+
+        <h4>4. Basic Project Scaffolding (Days 6-7)</h4>
+        <p class="objective"><strong>Objective:</strong> Create the skeleton for frontend and backend.</p>
+        <ul>
+            <li><strong>Backend (Node.js/Express):</strong> Folder structure, <code>package.json</code>, linter/formatter, <code>.env_sample</code>, basic "health check" endpoint.</li>
+            <li><strong>Frontend (HTML/CSS/JS):</strong> Basic HTML files (<code>index.html</code>), <code>styles.css</code>, <code>app.js</code> with stubs.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Scaffolded backend and frontend. Health check endpoint working.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 1:</h5>
+            <ul>
+                <li>Finalized core requirements document (internal).</li>
+                <li>Preliminary Design Document with Architecture Diagram.</li>
+                <li>GitHub Repository with backend/frontend scaffolds and detailed local setup guide (No Docker).</li>
+                <li>Working "health check" endpoint on the backend.</li>
+            </ul>
+        </div>
+        <hr />
+
+        <h3>Week 2 (Days 8–14): Audio Recording UI & Secure Upload</h3>
+
+        <h4>1. Implement Browser Audio Capture (Days 8-10)</h4>
+        <p class="objective"><strong>Objective:</strong> Allow users to record audio in the browser.</p>
+        <ul>
+            <li><strong>Frontend (<code>app.js</code>):</strong>
+                <ul>
+                    <li>Request microphone access.</li>
+                    <li>Implement <code>MediaRecorder</code> API (WebM format, 5-second chunks, client-side buffering).</li>
+                    <li>UI flow for recording ("Start", "Stop", status updates, button states).</li>
+                    <li>Ensure UI responsiveness and clear visual feedback.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Functional audio recording in the browser UI.</p>
+
+        <h4>2. Develop Backend Upload Endpoint (Days 11-13)</h4>
+        <p class="objective"><strong>Objective:</strong> Create a backend API to receive the recorded audio.</p>
+        <ul>
+            <li><strong>Backend (Node.js/Express):</strong>
+                <ul>
+                    <li>Define <code>POST /api/upload-audio</code> route using <code>multer</code> for <code>multipart/form-data</code>.</li>
+                    <li>Accept <code>sessionId</code> (UUID), <code>modelSelection</code>, <code>audioFile</code>.</li>
+                    <li>Validate inputs, temporarily save raw <code>.webm</code> to <code>tmp/</code>.</li>
+                    <li>Return JSON: <code>{ "message": "Upload received.", "transcriptUrl": "/api/transcript/{sessionId}" }</code>.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Backend endpoint capable of receiving and saving audio files.</p>
+
+        <h4>3. Implement Frontend Upload Logic (Days 13-14)</h4>
+        <p class="objective"><strong>Objective:</strong> Connect frontend recording to backend upload.</p>
+        <ul>
+            <li><strong>Frontend (<code>app.js</code>):</strong>
+                <ul>
+                    <li>After "Stop Recording": Generate <code>sessionId</code>, construct <code>FormData</code>.</li>
+                    <li>Send POST request to <code>/api/upload-audio</code>.</li>
+                    <li>Update UI status: "Uploading...", "Uploaded. Awaiting transcription." on success.</li>
+                    <li>Store <code>transcriptUrl</code>.</li>
+                    <li>Basic frontend error handling for upload failures.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Frontend can upload recorded audio; UI reflects status.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 2:</h5>
+            <ul>
+                <li>Frontend: Fully functional recording UI; audio capture and concatenation; upload logic; visual status updates.</li>
+                <li>Backend: <code>/api/upload-audio</code> endpoint saves raw WebM files and returns <code>transcriptUrl</code>.</li>
+                <li>Manual Test: Successful record, upload, file verification, and frontend status confirmation.</li>
+            </ul>
+        </div>
+        <hr />
+
+        <h3>Week 3 (Days 15–21): General STT Integration & Initial Transcription Flow</h3>
+
+        <h4>1. Audio Pre-processing on Backend (Days 15-17)</h4>
+        <p class="objective"><strong>Objective:</strong> Prepare uploaded audio for the General STT engine.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>After raw <code>.webm</code> save: Integrate <code>ffmpeg</code> for WebM to WAV conversion (e.g., 16kHz/48kHz mono).</li>
+                    <li>Implement silence removal using <code>ffmpeg</code> filters.</li>
+                    <li>Store cleaned <code>session_clean.wav</code> temporarily (e.g., <code>tmp/cleaned/</code>).</li>
+                    <li>Error handling for <code>ffmpeg</code> processes.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Backend can convert and clean uploaded audio files.</p>
+
+        <h4>2. Integrate General STT API (e.g., Whisper) (Days 17-19)</h4>
+        <p class="objective"><strong>Objective:</strong> Send processed audio to the General STT and get a transcript.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>Create STT API interaction service/module. Securely manage API keys (<code>.env</code>).</li>
+                    <li>Function to send <code>session_clean.wav</code>, handle API parameters.</li>
+                    <li>Receive and parse full transcript text.</li>
+                    <li>Implement retry logic for STT API calls (exponential backoff).</li>
+                    <li>Log errors if STT fails after retries.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Backend module to interact with General STT API.</p>
+
+        <h4>3. Persist Transcript to PostgreSQL (Days 19-20)</h4>
+        <p class="objective"><strong>Objective:</strong> Store session information and transcripts.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>Design PostgreSQL schema: <code>sessions</code> table (<code>session_id</code>, <code>user_id</code>, <code>model_used</code>, <code>status</code>, etc.), <code>transcripts</code> table (<code>transcript_id</code>, <code>session_id</code>, <code>text_content</code>, <code>version</code>, <code>stt_engine</code>).</li>
+                    <li>Write database service/model functions (using <code>pg</code> library or ORM): Create/update <code>sessions</code>, insert into <code>transcripts</code>.</li>
+                    <li>Update <code>sessions</code> status ('stt_complete' or 'stt_failed').</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Database schemas created; backend can save transcripts.</p>
+
+        <h4>4. Backend Endpoint for Transcription Status/Result (Day 21)</h4>
+        <p class="objective"><strong>Objective:</strong> Allow frontend to poll for and retrieve transcripts.</p>
+        <ul>
+            <li><strong>Backend:</strong> Create <code>GET /api/transcript/{sessionId}</code> endpoint.
+                <ul>
+                    <li>Logic: Query <code>sessions</code>. Return status 'processing', 'complete' (with transcript and <code>stt_engine</code>), or 'failed'.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Endpoint for frontend to get transcript status/content.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 3:</h5>
+            <ul>
+                <li>Backend: Audio pre-processing functional.</li>
+                <li>Backend: General STT API integrated with retry logic.</li>
+                <li>Backend: PostgreSQL schemas implemented; data persistence for transcripts.</li>
+                <li>Backend: <code>GET /api/transcript/{sessionId}</code> endpoint working.</li>
+                <li>Manual Test: Successful end-to-end flow from upload to transcript retrieval and DB verification.</li>
+            </ul>
+        </div>
+        <hr />
+
+        <h3>Week 4 (Days 22–28): Frontend Transcript Display & Basic Error Handling</h3>
+
+        <h4>1. Frontend Polling and Transcript Display (Days 22-24)</h4>
+        <p class="objective"><strong>Objective:</strong> Fetch and show the transcript in the UI.</p>
+        <ul>
+            <li><strong>Frontend:</strong>
+                <ul>
+                    <li>After "Uploaded. Awaiting transcription": Implement polling for <code>GET /api/transcript/{sessionId}</code>.</li>
+                    <li>Update UI status ("Transcribing with General Model...").</li>
+                    <li>On <code>status: "complete"</code>: Display full, scrollable transcript; update status to "Transcription Complete (General Model)".</li>
+                    <li>On <code>status: "failed"</code>: Display error message. Stop polling on "complete" or "failed".</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Frontend polls for, receives, and displays transcripts or error messages.</p>
+
+        <h4>2. Permanent Audio Storage Strategy (Local/S3 Placeholder) (Days 24-25)</h4>
+        <p class="objective"><strong>Objective:</strong> Implement basic permanent storage of audio files.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>Move raw <code>.webm</code> and cleaned <code>.wav</code> from <code>tmp/</code> to permanent local storage (e.g., <code>recordings/{sessionId}/</code>). Directory configurable via ENV.</li>
+                    <li><strong>S3 Integration (Placeholder/Initial):</strong> Setup S3 bucket, install AWS SDK, draft basic upload functions, conditional S3 upload (<code>NODE_ENV=production</code>), enable SSE-S3.</li>
+                    <li>Update <code>sessions</code> table with storage paths/URLs and <code>audio_stored = TRUE</code>.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Audio files moved to permanent local location. Basic S3 functions drafted/tested.</p>
+
+        <h4>3. Basic Backend Logging (Winston) (Days 26-27)</h4>
+        <p class="objective"><strong>Objective:</strong> Implement structured logging for easier debugging.</p>
+        <ul>
+            <li><strong>Backend:</strong> Integrate Winston. Configure levels (info, warn, error). Log key API events, STT responses, DB ops, <code>ffmpeg</code> errors. Output to console/file (JSON format).</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Structured logging implemented across the backend.</p>
+
+        <h4>4. Refine Basic Error Handling (Frontend & Backend) (Day 28)</h4>
+        <p class="objective"><strong>Objective:</strong> Improve robustness of error management.</p>
+        <ul>
+            <li><strong>Backend:</strong> Implement Express global error-handling middleware (log full trace, return generic 500). For anticipated errors, return specific 4xx with JSON.</li>
+            <li><strong>Frontend:</strong> Review all <code>fetch</code> calls, ensure <code>.catch()</code> blocks display user-friendly messages.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Improved error handling mechanisms on both frontend and backend.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 4:</h5>
+            <ul>
+                <li>Frontend: Polling logic, display of transcripts/errors.</li>
+                <li>Backend: Permanent local audio storage. Initial S3 capability (if applicable).</li>
+                <li>Backend: Winston logging integrated.</li>
+                <li>Backend: Express global error handler. Frontend error display refined.</li>
+                <li>Manual Verification: Successful test with audio storage, logging, and simulated STT error handling.</li>
+            </ul>
+        </div>
+
+        <hr />
+        <h2>Phase 2: Medical STT, Diarisation & Enhancements (Approx. 3.5 Weeks)</h2>
+
+        <h3>Week 5 (Days 29–35): Medical STT Research & Integration</h3>
+
+        <h4>1. Research Medical-Trained STT Options (Days 29-30)</h4>
+        <p class="objective"><strong>Objective:</strong> Identify suitable STT services/models for medical terminology.</p>
+        <ul>
+            <li>Investigate commercial medical STT APIs (AWS Transcribe Medical, Google Healthcare API, Nuance).</li>
+            <li>Explore Whisper variants/fine-tuning for medical use.</li>
+            <li>Consider open-source models (note self-hosting complexity).</li>
+            <li>Evaluate based on accuracy, pricing, API ease, HIPAA compliance.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Report summarizing findings and chosen Medical STT option(s) for PoC.</p>
+
+        <h4>2. Integrate Chosen Medical STT API (Proof of Concept) (Days 31-33)</h4>
+        <p class="objective"><strong>Objective:</strong> Connect to the Medical STT and get a transcript.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>Extend STT service module for new Medical STT API (auth, params, response).</li>
+                    <li>Securely manage new API keys. Implement retry logic.</li>
+                    <li>Update <code>sessions</code> table (<code>requested_stt_type</code>: 'general'/'medical').</li>
+                    <li>Update <code>transcripts</code> table (<code>stt_engine</code> to store 'medical_xyz_api').</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Backend can request/receive transcripts from Medical STT API.</p>
+
+        <h4>3. Frontend UI for STT Model Selection (Days 33-34)</h4>
+        <p class="objective"><strong>Objective:</strong> Allow users to choose between General and Medical STT.</p>
+        <ul>
+            <li><strong>Frontend:</strong> Add UI selection (radio/dropdown) for "Transcription Type: General / Medical". Pass <code>stt_type_preference</code> to <code>/api/upload-audio</code>.</li>
+            <li><strong>Backend:</strong> Modify <code>/api/upload-audio</code> to accept and store <code>stt_type_preference</code>. Route transcription to the chosen STT.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> UI allows model selection; backend routes to chosen STT.</p>
+
+        <h4>4. Initial Testing of Medical STT Accuracy (Day 35)</h4>
+        <p class="objective"><strong>Objective:</strong> Get a first look at Medical STT performance.</p>
+        <ul>
+            <li>Prepare small set of test audio with medical terms.</li>
+            <li>Transcribe with both General and Medical STT.</li>
+            <li>Manually compare transcripts, focusing on medical term accuracy. Document findings.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Preliminary comparison of General vs. Medical STT.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 5:</h5>
+            <ul>
+                <li>Research document on Medical STT options.</li>
+                <li>Backend integration for chosen Medical STT API.</li>
+                <li>Frontend UI for STT model selection.</li>
+                <li>Backend logic to route to selected STT.</li>
+                <li>Initial accuracy test results for Medical STT.</li>
+            </ul>
+        </div>
+        <hr />
+
+        <h3>Week 6 (Days 36–42): Speaker Diarisation & Advanced Features</h3>
+
+        <h4>1. Diarisation Service Preparation (Python Service) (Days 36-38)</h4>
+        <p class="objective"><strong>Objective:</strong> Set up a service to identify different speakers.</p>
+        <ul>
+            <li>Choose diarisation library (e.g., <code>pyannote-audio</code> or STT API's built-in).</li>
+            <li>Develop lightweight Python script/service: Accepts <code>session_clean.wav</code> path & <code>sessionId</code>, runs diarisation, outputs segments as JSON (file or stdout).</li>
+            <li>Document Python & dependency installation (<code>pip install</code>) and manual script execution.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Python diarisation script functional and tested manually.</p>
+
+        <h4>2. Queuing & Orchestrating Diarisation (Node.js Worker + BullMQ) (Days 38-40)</h4>
+        <p class="objective"><strong>Objective:</strong> Trigger diarisation after STT and process results.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>Setup BullMQ (Redis-based queue). Ensure Redis server is running.</li>
+                    <li>On successful STT completion: Enqueue diarisation job (<code>sessionId</code>, path to <code>.wav</code>).</li>
+                    <li>Create Node.js worker: Listens to queue, invokes Python script (<code>child_process.spawn</code>), captures JSON output.</li>
+                    <li>If diarisation fails, update <code>diarisation_status</code> in <code>sessions</code> and log.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Diarisation jobs queued and processed by Node.js worker.</p>
+
+        <h4>3. Diarisation Schema & DB Writes; Frontend Display (Days 40-42)</h4>
+        <p class="objective"><strong>Objective:</strong> Store and display speaker-labeled transcripts.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>PostgreSQL schema for <code>diarisation_segments</code> (<code>segment_id</code>, <code>session_id</code>, <code>speaker_label</code>, <code>start_time</code>, <code>end_time</code>).</li>
+                    <li>Parse Python output, insert segments into DB. Update <code>sessions</code> (<code>diarisation_status</code>).</li>
+                    <li>Create <code>GET /api/diarisation/{sessionId}</code> endpoint.</li>
+                </ul>
+            </li>
+            <li><strong>Frontend:</strong>
+                <ul>
+                    <li>After transcript & diarisation complete: Fetch segments from <code>/api/diarisation/{sessionId}</code>.</li>
+                    <li>Modify transcript display: Visually group/prefix text with speaker labels (e.g., "[Speaker A: 0.0s-2.5s] Hello...").</li>
+                    <li>Handle pending/failed diarisation display.</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Diarisation results stored. Frontend displays speaker-labeled transcripts.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 6:</h5>
+            <ul>
+                <li>Python diarisation service/script working.</li>
+                <li>Node.js worker using BullMQ for diarisation jobs.</li>
+                <li>PostgreSQL schema and data persistence for diarisation.</li>
+                <li>Frontend fetches and displays speaker labels.</li>
+                <li><code>GET /api/diarisation/{sessionId}</code> endpoint.</li>
+            </ul>
+        </div>
+        <hr />
+
+        <h3>Week 7 (Days 43–49): Security, Testing, and Deployment Prep</h3>
+
+        <h4>1. Implement JWT Authentication & Authorization (RBAC) (Days 43-45)</h4>
+        <p class="objective"><strong>Objective:</strong> Secure API endpoints and implement role-based access.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li>Implement user registration/login (<code>POST /api/auth/register</code>, <code>/login</code>) returning JWTs. Store hashed passwords in <code>users</code> table.</li>
+                    <li>Create JWT authentication middleware. Protect relevant endpoints.</li>
+                    <li>Basic RBAC: <code>role: "doctor"</code> (own data), <code>role: "admin"</code> (future). Scope <code>sessionId</code> queries by <code>user_id</code>.</li>
+                </ul>
+            </li>
+            <li><strong>Frontend:</strong> Create login page/form. Store JWT securely (HttpOnly cookie preferred). Include JWT in Auth header. Handle logout.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Secure authentication and basic authorization implemented.</p>
+
+        <h4>2. Security Hardening (Input Validation, HTTPS) (Days 45-46)</h4>
+        <p class="objective"><strong>Objective:</strong> Enhance overall application security.</p>
+        <ul>
+            <li><strong>Backend:</strong>
+                <ul>
+                    <li><strong>Input Validation:</strong> Use <code>Joi</code> or <code>express-validator</code> for all API inputs. Validate <code>sessionId</code>, model choices, file types/sizes.</li>
+                    <li><strong>HTTPS Enforcement:</strong> Plan for production Node.js server behind Nginx reverse proxy configured for HTTPS. HTTP -> HTTPS redirect. Document local self-signed cert setup.</li>
+                    <li><strong>Secrets Management:</strong> Use ENV vars for secrets in production. <code>.env</code> locally (in <code>.gitignore</code>).</li>
+                </ul>
+            </li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Enhanced input validation. HTTPS strategy. Secure secrets plan.</p>
+
+        <h4>3. Comprehensive Testing (Unit & Integration - Backend) (Days 47-49)</h4>
+        <p class="objective"><strong>Objective:</strong> Ensure backend components work correctly.</p>
+        <ul>
+            <li><strong>Backend:</strong> Write unit tests (Jest, Mocha/Chai) for services (mock external APIs), DB logic, auth. Write integration tests for full API flows, STT/Diarisation queue interaction. Aim for good coverage.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Suite of unit and integration tests for the backend.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 7:</h5>
+            <ul>
+                <li>JWT authentication and basic RBAC (doctor role) implemented.</li>
+                <li>Frontend login/logout flow.</li>
+                <li>Robust input validation on backend APIs. HTTPS strategy for production.</li>
+                <li>Comprehensive backend unit and integration tests; coverage report.</li>
+            </ul>
+        </div>
+        <hr />
+
+        <h3>Week 7.5 (Days 50–52+): Final Documentation, Deployment, and Go-Live Prep</h3>
+
+        <h4>1. Frontend Smoke Tests & Final UI Polish (Day 50)</h4>
+        <p class="objective"><strong>Objective:</strong> Ensure frontend critical paths work and UI is presentable.</p>
+        <ul>
+            <li><strong>Frontend:</strong> Manual smoke testing (login, record, select STT, upload, view transcript/diarisation, logout). Optional: Basic automated UI tests (Puppeteer/Playwright). Final UI tweaks.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Smoother frontend experience. Optional basic UI test scripts.</p>
+
+        <h4>2. Finalize Documentation (README, API Docs) (Day 51)</h4>
+        <p class="objective"><strong>Objective:</strong> Provide comprehensive documentation.</p>
+        <ul>
+            <li><strong>Update <code>README.md</code>:</strong> Overview, tech stack, detailed local setup (Node, Postgres, Redis, Python, <code>ffmpeg</code>, ENV vars), running app/tests.</li>
+            <li><strong><code>API_REFERENCE.md</code>:</strong> Detailed specs for all public API endpoints.</li>
+            <li><strong>Deployment Guide (No Docker - e.g., Linux VM):</strong> Server prereqs, cloning, backend setup (PM2), frontend serving (Nginx), diarisation worker setup, Nginx config (proxy, HTTPS), DB setup, health check, rollback.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Comprehensive <code>README.md</code>, <code>API_REFERENCE.md</code>, initial Deployment Guide.</p>
+
+        <h4>3. Deployment to Staging/Production & "Go-Live" Checklist (Day 52+)</h4>
+        <p class="objective"><strong>Objective:</strong> Deploy the application and prepare for launch.</p>
+        <ul>
+            <li>Set up staging/production server environment per Deployment Guide.</li>
+            <li>Deploy backend, frontend, diarisation worker. Configure Nginx, PostgreSQL, Redis.</li>
+            <li>Thorough end-to-end testing on deployed environment.</li>
+            <li>Create <strong>"Go-Live" Checklist:</strong> ENV vars, SSL, DB schema, services running, successful test transcriptions, basic monitoring, DB backup plan.</li>
+            <li>(If applicable) Stakeholder demo and sign-off.</li>
+        </ul>
+        <p class="output-desc"><strong>Output:</strong> Application deployed. Go-Live checklist prepared/executed.</p>
+
+        <div class="deliverables-section">
+            <h5>Deliverables by End of Week 7.5+ (Project Completion):</h5>
+            <ul>
+                <li>Fully tested application deployed to a staging/production environment.</li>
+                <li>Complete Documentation: <code>README.md</code>, <code>API_REFERENCE.md</code>, Deployment Guide.</li>
+                <li>Basic UI test scripts (optional).</li>
+                <li>Go-Live Checklist.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        const canvas = document.getElementById('glitterCanvas');
+        const ctx = canvas.getContext('2d');
+
+        let particlesArray;
+
+        // Set canvas dimensions
+        function setCanvasDimensions() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        setCanvasDimensions();
+
+        // Particle class
+        class Particle {
+            constructor(x, y, size, color, speedX, speedY) {
+                this.x = x;
+                this.y = y;
+                this.size = size;
+                this.color = color; // 'Dirty white'
+                this.speedX = speedX;
+                this.speedY = speedY;
+                this.opacity = Math.random() * 0.5 + 0.3; // Random initial opacity for twinkling
+                this.opacityDirection = 1; // 1 for increasing, -1 for decreasing
+            }
+
+            // Method to draw individual particle
+            draw() {
+                ctx.fillStyle = `rgba(${this.hexToRgb(this.color).r}, ${this.hexToRgb(this.color).g}, ${this.hexToRgb(this.color).b}, ${this.opacity})`;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+            
+            hexToRgb(hex) {
+                let r = 0, g = 0, b = 0;
+                // 3 digits
+                if (hex.length == 4) {
+                    r = "0x" + hex[1] + hex[1];
+                    g = "0x" + hex[2] + hex[2];
+                    b = "0x" + hex[3] + hex[3];
+                // 6 digits
+                } else if (hex.length == 7) {
+                    r = "0x" + hex[1] + hex[2];
+                    g = "0x" + hex[3] + hex[4];
+                    b = "0x" + hex[5] + hex[6];
+                }
+                return {r:+r, g:+g, b:+b};
+            }
+
+
+            // Check particle position, check mouse position, move particle, draw particle
+            update() {
+                // Wall collision
+                if (this.x + this.size > canvas.width || this.x - this.size < 0) {
+                    this.speedX = -this.speedX;
+                }
+                if (this.y + this.size > canvas.height || this.y - this.size < 0) {
+                    // If it hits top/bottom, reset to a random y position from the opposite side to avoid clumping
+                    if (this.speedY > 0) { // Moving downwards, hit bottom
+                        this.y = 0 - this.size;
+                        this.x = Math.random() * canvas.width;
+                    } else { // Moving upwards, hit top
+                        this.y = canvas.height + this.size;
+                        this.x = Math.random() * canvas.width;
+                    }
+                   // this.speedY = -this.speedY; // Or simply bounce
+                }
+
+                // Move particle
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                // Twinkle effect: subtly change opacity
+                if (this.opacityDirection === 1) {
+                    this.opacity += 0.005;
+                    if (this.opacity >= 0.8) this.opacityDirection = -1;
+                } else {
+                    this.opacity -= 0.005;
+                    if (this.opacity <= 0.2) this.opacityDirection = 1;
+                }
+                
+                this.draw();
+            }
+        }
+
+        // Create particle array
+        function init() {
+            particlesArray = [];
+            // Number of particles based on screen area, but capped for performance
+            let numberOfParticles = Math.min(Math.floor((canvas.width * canvas.height) / 20000), 150) ; 
+            for (let i = 0; i < numberOfParticles; i++) {
+                let size = Math.random() * 1.5 + 0.5; // Small size for 'sprinkles'
+                let x = Math.random() * (innerWidth - size * 2) + size;
+                let y = Math.random() * (innerHeight - size * 2) + size;
+                let speedX = (Math.random() * 0.4 - 0.2); // Slow horizontal drift
+                let speedY = (Math.random() * 0.4 - 0.2); // Slow vertical drift
+                let color = '#EAEAEA'; // Dirty white
+
+                particlesArray.push(new Particle(x, y, size, color, speedX, speedY));
+            }
+        }
+
+        // Animation loop
+        function animate() {
+            ctx.clearRect(0, 0, innerWidth, innerHeight);
+            for (let i = 0; i < particlesArray.length; i++) {
+                particlesArray[i].update();
+            }
+            requestAnimationFrame(animate);
+        }
+
+        // Resize event
+        window.addEventListener('resize', () => {
+            setCanvasDimensions();
+            init(); // Re-initialize particles on resize for new density/positions
+        });
+
+        // Initial setup
+        init();
+        animate();
+    </script>
+</body>
+</html>
